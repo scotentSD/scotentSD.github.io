@@ -3,7 +3,7 @@ layout: post
 title: Invisible Disabilities
 author: Stéphanie
 
-published: false
+published: true
 ---
 
 When you hear 'disability' you usually think: Wheelchair. But In the UK, 93–95% of people with disabilities are not wheelchair users.
@@ -56,6 +56,7 @@ _Photo by Ellie Kime_
 Or [the initiative from the Heathrow airport](https://www.heathrow.com/at-the-airport/accessibility-and-mobility-help/hidden-disabilities) and their green lanyards with sunflowers. Again you don’t have to prove you need it.
 
 ![Selfie of molly wearing sunflower lanyard.](/images/a11y/MollyTwitter.png)
+
 _[From Molly Watt's tweet](https://twitter.com/MollyWattTalks/status/1184080487406538755)_
 
 ### Toilets access
