@@ -108,7 +108,7 @@ We need to spread the message that you can look OK but might actually be struggl
 ## More on the subject
 [Work and disability](https://www.nhs.uk/conditions/social-care-and-support-guide/money-work-and-benefits/work-and-disability/) – NHS
 
-[How do you define invisible disability?](https://invisibledisabilities.org/what-is-an-invisible-disability/) | invisible disability definition – Invisibiledisabilities.org
+[How do you define invisible disability?](https://invisibledisabilities.org/what-is-an-invisible-disability/) invisible disability definition – Invisibiledisabilities.org
 
 [New blue badge rules to benefit people with hidden disabilities](https://www.theguardian.com/society/2018/jan/21/new-blue-badge-parking-permit-rules-benefit-people-autism-dementia-hidden-disabilities) – the Guardian
 
