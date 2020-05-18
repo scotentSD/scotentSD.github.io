@@ -15,7 +15,7 @@ _From [Visability93](https://www.visability93.com/)_
 
 
 ## What is an invisible disability?
-The Invisible Disabilities Association says:
+The [Invisible Disabilities Association](https://invisibledisabilities.org/what-is-an-invisible-disability/) says:
 
 >An invisible disability is a physical, mental or neurological condition that is not visible from the outside, yet can limit or challenge a person’s movements, senses, or activities.
 
@@ -25,7 +25,7 @@ These can come from a wide range of conditions like Fibromyalgia, Crohn’s dise
 
 ![various symbols illustrating different disabilities like bipolar, Crohn's, fibromyalgia](/images/a11y/other-symbols.png)
 
-They regularly face problems in public places and at work because people don't realise there are some things they can't do.
+People with invisible disabilities regularly face problems in public places and at work because others don't realise there are some things they can't do.
 
 ## Public places: Priority seats in transports, accessible toilets and disabled parking spaces
 
@@ -45,6 +45,7 @@ The [Blue Badge scheme has been extended](https://www.gov.uk/government/news/peo
 For example, [Transport for London](https://tfl.gov.uk/transport-accessibility/please-offer-me-a-seat) created a badge and a card stating “Please offer me a seat”. You don’t have to prove you need it. It can empower some people to ask for a seat and if you’re lucky, someone might notice it and you might not even have to ask. But a lot of people using it seem to still feel judged or get weird looks.
 
 > _“I’ve only used it a few times, when I have, I can just feel people staring at me, I’ve never used it when the trains have been particularly busy so couldn’t say whether it actually works or not, but I’ve never felt more judged.”_ — Caitlin
+
 ![A badge and a card from Transport London stating: "please offer me a seat"](/images/a11y/Please-Offer-Me-A-Seat.png)
 _From the website "[you look ok to me"](https://www.youlookokaytome.com/)_
 
@@ -54,7 +55,8 @@ _Photo by Ellie Kime_
 
 Or [the initiative from the Heathrow airport](https://www.heathrow.com/at-the-airport/accessibility-and-mobility-help/hidden-disabilities) and their green lanyards with sunflowers. Again you don’t have to prove you need it.
 
-![Selfie of molly wearing sunflower lanyard.](/images/a11y/green-lanyard.jpeg)
+![Selfie of molly wearing sunflower lanyard.](/images/a11y/MollyTwitter.png)
+_[From Molly Watt's tweet](https://twitter.com/MollyWattTalks/status/1184080487406538755)_
 
 ### Toilets access
 [Crohn’s & Colitis UK](https://www.crohnsandcolitis.org.uk/news/not-every-disability-is-visible-campaign-targets-restaurants-and-pubs) has launched [Not Every Disability is Visible](https://www.noteverydisabilityisvisible.org.uk/about-the-campaign) inspired by campaigner Grace Warnock. They ask UK’s major supermarkets, restaurants, pubs and travel hubs to change their accessible toilet signs to highlight that Not Every Disability is Visible.
@@ -67,9 +69,9 @@ You can get involved, [they provide material on their website](https://www.notev
 
 ## At work
 
-I know a few people who had tried at their work place to get colleagues with disabilities to do some usability testing for them. They had sent an email to everyone, requesting volunteers. Even though they knew from HR that there are actually people with disabilities, they had no answer.
+Our User Research team had tried to get colleagues with disabilities to do some usability testing for them. They had sent an email to everyone, requesting volunteers. Even though they knew from HR that there are actually people with disabilities, they had no answer.
 
-Maybe people didn’t read the email, or were not interested. But because it seems to happen quite often, my assumption is that most people don’t want others at work to know they have a disability. Or to be observed by colleagues while struggling doing a task. Or fear they will have to explain their conditions and maybe get defined by them afterward.
+Maybe people didn’t read the email, or were not interested. But because it seems to happen in other work places too, my assumption is that most people don’t want others at work to know they have a disability. Or to be observed by colleagues while struggling doing a task. Or fear they will have to explain their condition and maybe get defined by it afterward.
 
 ### The expectation that everyone wants to get fit or lose weight
 At work, there are often lot of initiatives for employees to get fit or lose weight. How do you go about turning these down, when you don’t want to disclose that you have an issue preventing you to take part?
@@ -81,7 +83,7 @@ By presenting this like a great idea, with most in the team jumping in, others m
 
 > _“I’d rather be thought rude than detail to a colleague why I’m not folding chairs and stacking them against the wall at the end of the meeting.”_ — [Hope R. Henderson](https://themighty.com/2017/12/coming-out-as-a-person-with-an-invisible-disability/)
 
-**We should always be mindful that we’re all different and offer alternative or a way out.**
+**We should always be mindful that we’re all different and offer an alternative or a way out.**
 
 More information about running accessible meetings and events in [this Medium article, by Sheri Byrne-Haber](https://medium.com/age-of-awareness/running-accessible-meetings-and-events-5efcd9c4a3df).
 
@@ -102,6 +104,12 @@ We need to spread the message that you can look OK but might actually be struggl
 
 > _“Most days, most places, I don’t want to tell. I don’t want to tell the driver or the scowling elderly passengers why I need a seat on the bus. I don’t want to explain that I’m not there to teach the yoga for disabilities class.”_ From [Coming Out as a Person With an Invisible Disability – by Hope R. Henderson](https://themighty.com/2017/12/coming-out-as-a-person-with-an-invisible-disability/)
 
+## More on the subject
+[Work and disability](https://www.nhs.uk/conditions/social-care-and-support-guide/money-work-and-benefits/work-and-disability/) – NHS
+
+[How do you define invisible disability?](https://invisibledisabilities.org/what-is-an-invisible-disability/) | invisible disability definition – Invisibiledisabilities.org
+
+[New blue badge rules to benefit people with hidden disabilities](https://www.theguardian.com/society/2018/jan/21/new-blue-badge-parking-permit-rules-benefit-people-autism-dementia-hidden-disabilities) – the Guardian
 
 
 
