@@ -3,7 +3,7 @@ layout: post
 title: Inclusion, Accessibility, Assisted digital needs - what’s the difference?
 author: Stéphanie
 
-published: false
+published: true
 ---
 
 A short post to help define these terms
@@ -17,7 +17,8 @@ Usually, most people have a good idea of what accessibility needs are. They thin
 
 _[Do and Don’t posters from the Home Office](https://github.com/UKHomeOffice/posters/blob/master/accessibility/dos-donts/posters_en-UK/accessibility-posters-set.pdf)_
 
-### In the UK, 1 in 5 people have a disability
+### In the UK, 1 in 5 people have a disability
+
 The concept of accessibility doesn’t just apply to people with disabilities — all users will have different needs at different times and in different circumstances.
 
 The [World Health Organization](https://www.who.int/topics/disabilities/en/) defines disability as:
