@@ -99,6 +99,7 @@ We need to spread the message that you can look OK but might actually be struggl
 ## Why people often do not want to disclose they have an invisible disability?
 > _“Knowing someone has a disability more often than not changes the way you perceive them. Whether the reaction is discriminatory or empathetic, this unwanted attention can make life feel suffocating. In being open about our disability, we unfortunately have to accept the reality that people will treat us differently.”_ — [Isabelle Jani-Friend](https://www.theguardian.com/commentisfree/2019/aug/09/disabilities-invisible-prove-stangers-disabled-services-illnesses)
 > _“Most days, most places, I don’t want to tell. I don’t want to tell the driver or the scowling elderly passengers why I need a seat on the bus. I don’t want to explain that I’m not there to teach the yoga for disabilities class.”_ From [Coming Out as a Person With an Invisible Disability – by Hope R. Henderson](https://themighty.com/2017/12/coming-out-as-a-person-with-an-invisible-disability/)
+
 ## More on the subject
 [Work and disability](https://www.nhs.uk/conditions/social-care-and-support-guide/money-work-and-benefits/work-and-disability/) – NHS
 
