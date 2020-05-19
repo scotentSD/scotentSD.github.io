@@ -58,6 +58,7 @@ _From the website "[you look ok to me"](https://www.youlookokaytome.com/)_
 
 ‘Happy to move for you’ is the [same idea but for people who are happy to offer their seat](https://www.standard.co.uk/news/transport/happy-to-move-for-you-tube-badge-for-people-with-hidden-illnesses-to-be-rolled-out-across-uk-a4276381.html) to someone who might need it. Ellie Kime came up with this badge:
 ![blue badge that says: Happy to move for you as a smily face](/images/a11y/happytomoveforyoubadge.jpg)
+
 _Photo by Ellie Kime_
 
 Or [the initiative from the Heathrow airport](https://www.heathrow.com/at-the-airport/accessibility-and-mobility-help/hidden-disabilities) and their green lanyards with sunflowers. Again you don’t have to prove you need it.
@@ -89,15 +90,17 @@ A quick Google search for “walking meetings” will return lots of articles ab
 By presenting this like a great idea, with most in the team jumping in, others might find themselves in a position where they feel they have to explain themselves if they don’t want or can’t take part.
 
 > _“I’d rather be thought rude than detail to a colleague why I’m not folding chairs and stacking them against the wall at the end of the meeting.”_ — [Hope R. Henderson](https://themighty.com/2017/12/coming-out-as-a-person-with-an-invisible-disability/)
+
 **We should always be mindful that we’re all different and offer an alternative or a way out.**
 
 More information about running accessible meetings and events in [this Medium article, by Sheri Byrne-Haber](https://medium.com/age-of-awareness/running-accessible-meetings-and-events-5efcd9c4a3df).
 
-## As a person with hidden disabilities, is it your responsibility to educate others?
+## As a person with invisible disabilities, is it your responsibility to educate others?
 Some people with disabilities (visible or invisible) are happy to talk about it openly. But they can get tired of explaining again and again.
 
 There is also quite a difference between educating family, friends, colleagues compared to complete strangers in the public transports or on the way to the toilets!
 > _“Unfortunately, people often judge others by what they see and conclude a person can or cannot do something by the way they look. This attitude can be equally frustrating for those who may appear unable but are perfectly capable, as well as those who seem able, but are not.”_ — [IDA website](https://invisibledisabilities.org/what-is-an-invisible-disability/)
+
 Social media can help spread the word and raise awareness. Having more representations of these disabilities and the impact on people’s daily life in the media, TV, and films would also make a difference.
 
 We need to spread the message that you can look OK but might actually be struggling or look weird but just trying to cope being in a stressful environment, look drunk but just be dealing with neurological problems.
@@ -106,6 +109,7 @@ We need to spread the message that you can look OK but might actually be struggl
 
 ## Why people often do not want to disclose they have an invisible disability?
 > _“Knowing someone has a disability more often than not changes the way you perceive them. Whether the reaction is discriminatory or empathetic, this unwanted attention can make life feel suffocating. In being open about our disability, we unfortunately have to accept the reality that people will treat us differently.”_ — [Isabelle Jani-Friend](https://www.theguardian.com/commentisfree/2019/aug/09/disabilities-invisible-prove-stangers-disabled-services-illnesses)
+
 > _“Most days, most places, I don’t want to tell. I don’t want to tell the driver or the scowling elderly passengers why I need a seat on the bus. I don’t want to explain that I’m not there to teach the yoga for disabilities class.”_ From [Coming Out as a Person With an Invisible Disability – by Hope R. Henderson](https://themighty.com/2017/12/coming-out-as-a-person-with-an-invisible-disability/)
 
 ## More on the subject
