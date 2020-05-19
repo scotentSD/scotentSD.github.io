@@ -26,6 +26,14 @@ These can come from a wide range of conditions like Fibromyalgia, Crohn’s dise
 
 People with invisible disabilities regularly face problems in public places and at work because others don't realise there are some things they can't do.
 
+## The spoon theory
+When you live with a chronic disease, your energy is limited. You will have bad days and good days. You need to pace yourself and plan ahead what you will be able to do that day. The [Spoon Theory](https://butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/) was created by Christine Miserandino to explain to a friend how it felt to live with Lupus, making one spoon an energy unit: If you are healthy, you start your day with an unlimited number of spoons, but if you're not, you might start your day with 15 spoons on a 'good day'. Every thing you do will take away some spoons, and when they are gone, you can't do anyhting until the next day. 
+
+This little video explains this quite well.
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Hh59lPG5ifk?start=12" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+**The take away**: don't assume someone can do something because they have done it the day before, they might be low on spoons...
+
 ## Public places: Priority seats in transports, accessible toilets and disabled parking spaces
 
 It’s easy to find articles about people with invisible disabilities being treated badly by the public assuming they are abusing the system.
