@@ -1,110 +1,111 @@
 ---
 layout: post
-title: Inclusion, Accessibility, Assisted digital needs - what’s the difference?
+title:  Invisible Disabilities
 author: Stéphanie
 
 published: true
 ---
 
-A short post to help define these terms
+When you hear 'disability' you usually think: Wheelchair. But In the UK, 93–95% of people with disabilities are not wheelchair users.
 
 <!--more-->
+![a cross and the wheelchair symbol visual with the message: 93% of people with disabilities don't use a wheelchair](/images/a11y/93visability.png)
 
-## Accessibility
-Usually, most people have a good idea of what accessibility needs are. They think: screen readers, wheelchairs, and more recently they might even think of dyslexia for example. But there is much more to it:
+_From [Visability93](https://www.visability93.com/)_
 
-![collage of 8 posters from the Home Office showing we you should do / don't do regardinf designing for deaf or hard of hearing, users on the autistic spectrum, dyslexia, anxiety, physical or motor disabilities, low vision, or screen readers](/images/a11y/do-dont.png)
+## What is an invisible disability?
+The [Invisible Disabilities Association](https://invisibledisabilities.org/what-is-an-invisible-disability/) says:
 
-_[Do and Don’t posters from the Home Office](https://github.com/UKHomeOffice/posters/blob/master/accessibility/dos-donts/posters_en-UK/accessibility-posters-set.pdf)_
+>An invisible disability is a physical, mental or neurological condition that is not visible from the outside, yet can limit or challenge a person’s movements, senses, or activities.
 
-### In the UK, 1 in 5 people have a disability
+Symptoms can be debilitating pain, fatigue, dizziness, cognitive dysfunctions, learning differences, mental health disorders, or hearing and vision impairments for example. They can limits your daily activities.
 
-The concept of accessibility doesn’t just apply to people with disabilities — all users will have different needs at different times and in different circumstances.
+These can come from a wide range of conditions like Fibromyalgia, Crohn’s disease, Multiple Sclerosis (M.S.), Autism, Anxiety, Myalgic Encephalomyelitis (M.E. also known as Chronic Fatigue Syndrome), Lupus, and many more…
 
-The [World Health Organization](https://www.who.int/topics/disabilities/en/) defines disability as:
+![various symbols illustrating different disabilities like bipolar, Crohn's, fibromyalgia](/images/a11y/other-symbols.png)
 
->_“a mismatch in interaction between the features of a person’s body and the features of the environment in which they live.”_
+People with invisible disabilities regularly face problems in public places and at work because others don't realise there are some things they can't do.
 
-The impairment can be permanent, temporary or situational, but in the end, it’s the same requirements:
+## Public places: Priority seats in transports, accessible toilets and disabled parking spaces
 
-![showing temporary permanent situational impairment for speak, hear and more](/images/a11y/inclusive-toolkit-microsoft.png)
+It’s easy to find articles about people with invisible disabilities being treated badly by the public assuming they are abusing the system.
+> _“I have been verbally abused on public transport because I have a white cane & use my phone. I have residual vision like 94% of registered blind people. I use accessible tech to magnify the screen.#BlindPeopleUsePhone”_ — [Dr Amy Kavanagh](https://twitter.com/BlondeHistorian/status/1189790200404348928)
 
-_From the [Inclusive toolkit Microsoft Design](https://www.microsoft.com/design/inclusive/)_
+[Student with stoma accused of taking drugs in pub](https://www.bbc.co.uk/news/uk-wales-49556333)
 
-## Assisted Digital - Digital exclusion
+[‘Being fat and ugly doesn’t count as disabled’ note left on a car: Why we need to raise awareness of invisible disabilities](https://metro.co.uk/2015/05/06/being-fat-and-ugly-isnt-a-disability-note-why-we-need-to-raise-awareness-of-invisible-disabilities-5182482/)
 
-Sometimes people need help to use services online. This is known as [assisted digital support](https://www.gov.uk/service-manual/helping-people-to-use-your-service/assisted-digital-support-introduction#users-who-need-assisted-digital-support).
+## Some initiatives are trying to help
 
-Any user may need assisted digital support, if they lack:
+### Blue badge
+The [Blue Badge scheme has been extended](https://www.gov.uk/government/news/people-with-hidden-disabilities-to-benefit-from-blue-badges) to hidden disabilities, including autism and mental health conditions.
 
-- trust in your service or the internet
-- confidence to use an online service themselves
-- access to the internet
-- digital skills
-- motivation to overcome these barriers on their own
+### In the transports
+For example, [Transport for London](https://tfl.gov.uk/transport-accessibility/please-offer-me-a-seat) created a badge and a card stating “Please offer me a seat”. You don’t have to prove you need it. It can empower some people to ask for a seat and if you’re lucky, someone might notice it and you might not even have to ask. But a lot of people using it seem to still feel judged or get weird looks.
 
-A recent study shows that **almost one-fifth of Britons ‘do not use internet’.**
+> _“I’ve only used it a few times, when I have, I can just feel people staring at me, I’ve never used it when the trains have been particularly busy so couldn’t say whether it actually works or not, but I’ve never felt more judged.”_ — Caitlin
 
-In [this article, from the BBC](https://www.bbc.co.uk/news/technology-49607061), you get a better idea of the various reasons why people don’t use internet:
+![A badge and a card from Transport London stating: "please offer me a seat"](/images/a11y/Please-Offer-Me-A-Seat.png)
+_From the website "[you look ok to me"](https://www.youlookokaytome.com/)_
 
-10% do not use the net because of privacy worries
-40% of those earning less than £12,500 do not go online
-70% of all respondents “uncomfortable” with targeted advertising and data tracking
-12% have been hit by computer viruses
-11% got abusive emails
+‘Happy to move for you’ is the [same idea but for people who are happy to offer their seat](https://www.standard.co.uk/news/transport/happy-to-move-for-you-tube-badge-for-people-with-hidden-illnesses-to-be-rolled-out-across-uk-a4276381.html) to someone who might need it. Ellie Kime came up with this badge:
+![blue badge that says: Happy to move for you as a smily face](/images/a11y/happytomoveforyoubadge.jpg)
+_Photo by Ellie Kime_
 
-### Just like for accessibility, users will have different needs at different times and in different circumstances
+Or [the initiative from the Heathrow airport](https://www.heathrow.com/at-the-airport/accessibility-and-mobility-help/hidden-disabilities) and their green lanyards with sunflowers. Again you don’t have to prove you need it.
 
-For example:
 
-- you might be comfortable doing online shopping but struggle for a specific task like uploading a document or taking a photo with your phone
-- you’re visiting an area where there is nearly no signal or simply travelling on a train
-- you have hardly any data left on your account, no or slow internet access
-- you are applying online to get some support because you have been assaulted, or just lost someone, or about to lose your home
+![Selfie of molly wearing sunflower lanyard.](/images/a11y/MollyTwitter.png)
 
-### In Scotland - Digital exclusion
-**About 1 in 7 people in Scotland can’t get online.** This is about 800,000 people.
+_[From Molly Watt's tweet](https://twitter.com/MollyWattTalks/status/1184080487406538755)_
 
-There are various reasons:
+### Toilets access
+[Crohn’s & Colitis UK](https://www.crohnsandcolitis.org.uk/news/not-every-disability-is-visible-campaign-targets-restaurants-and-pubs) has launched [Not Every Disability is Visible](https://www.noteverydisabilityisvisible.org.uk/about-the-campaign) inspired by campaigner Grace Warnock. They ask UK’s major supermarkets, restaurants, pubs and travel hubs to change their accessible toilet signs to highlight that Not Every Disability is Visible.
 
-- money: can’t afford a device, to pay for broadband/data, or to get the assistive devices they need
-- lives in an area with poor infrastructure
-- lack confidence to use an online service themselves
-- lack digital skills
+![Various toilets signs with the usual symbol for access plus man and woman symbols plus text: Not every disability is visible](/images/a11y/toilets-collage.jpg)
 
-We usually don't realise how many are affected:
-- 2 in 10 adults in Scotland lack basic digital skills
-- 1 in 10 have no digital skills (find info, order shopping online or fill in a form)
-- 13% of households have no internet access at home (17% for the lowest income households)
-- 1 in 8 adults do not use the internet at all
+_Photo from [their website](https://www.noteverydisabilityisvisible.org.uk/take-action)_
 
-**Sources**: [Scottish household survey 2018: annual report](https://www.gov.scot/publications/scotlands-people-annual-report-results-2018-scottish-household-survey/) and [UK Consumer Digital Index 2019 from the Lloyds Bank](https://www.lloydsbank.com/assets/media/pdfs/banking_with_us/whats-happening/lb-consumer-digital-index-2019-report.pdf)
+You can get involved, [they provide material on their website](https://www.noteverydisabilityisvisible.org.uk/take-action)
 
-### More on this
-- [The economic impact of Digital Inclusion in the UK](https://www.goodthingsfoundation.org/research-publications/economic-impact-digital-inclusion-uk)
-- [Measure to assess users’ digital competency](http://salmapatel.co.uk/user-research/measure-to-assess-digital-competency/)
-- [Location, Privilege and Performant Websites](https://blog.stephaniestimac.com/posts/10-30-2019-performance/)
+## At work
 
-## Inclusion
-This is a broader term: Inclusive design is about designing for a diverse range of people. Whatever their gender, sexuality, age, ethnicity, social class, communications abilities or culture.
+Our User Research team had tried to get colleagues with disabilities to do some usability testing for them. They had sent an email to everyone, requesting volunteers. Even though they knew from HR that there are actually people with disabilities, they had no answer.
 
-- if your service is not accessible, then you are not inclusive of people with accessibility needs
-- if your service online is accessible, but you don’t offer an alternative for assisted digital users, then you are not inclusive either
+### The expectation that everyone wants to get fit or lose weight
+At work, there are often lot of initiatives for employees to get fit or lose weight. How do you go about turning these down, when you don’t want to disclose that you have an issue preventing you to take part?
 
-![diagram showing diversity: gender and sexuality, age, diets, religion, income, culture, size and shape, education, language](/images/a11y/diversity.jpeg)
+### We should have walking meetings!
+A quick Google search for “walking meetings” will return lots of articles about how great they are, but none on the first page seems to take into account that some people in your team might not be able to do this.
 
-### Common inclusion issues in services
+By presenting this like a great idea, with most in the team jumping in, others might find themselves in a position where they feel they have to explain themselves if they don’t want or can’t take part.
 
-For example asking for:
-- your gender when it might not even be needed or in a way that doesn’t allow you to identify yourself correctly
-- your title or marital status
-- parents information in terms which exclude same-sex-parenting
+> _“I’d rather be thought rude than detail to a colleague why I’m not folding chairs and stacking them against the wall at the end of the meeting.”_ — [Hope R. Henderson](https://themighty.com/2017/12/coming-out-as-a-person-with-an-invisible-disability/)
+**We should always be mindful that we’re all different and offer an alternative or a way out.**
 
-Bakken & Bæck, a digital studio based in Oslo, Bonn and Amsterdam, have [a very good Diversity and Inclusion guide](https://bakkenbaeck.com/diversity-inclusion) if you want to learn more.
+More information about running accessible meetings and events in [this Medium article, by Sheri Byrne-Haber](https://medium.com/age-of-awareness/running-accessible-meetings-and-events-5efcd9c4a3df).
 
-You can also check their [A to Z Inclusion and diversity glossary](https://bakkenbaeck.com/diversity-inclusion/glossary).
+## As a person with hidden disabilities, is it your responsibility to educate others?
+Some people with disabilities (visible or invisible) are happy to talk about it openly. But they can get tired of explaining again and again.
+
+There is also quite a difference between educating family, friends, colleagues compared to complete strangers in the public transports or on the way to the toilets!
+> _“Unfortunately, people often judge others by what they see and conclude a person can or cannot do something by the way they look. This attitude can be equally frustrating for those who may appear unable but are perfectly capable, as well as those who seem able, but are not.”_ — [IDA website](https://invisibledisabilities.org/what-is-an-invisible-disability/)
+Social media can help spread the word and raise awareness. Having more representations of these disabilities and the impact on people’s daily life in the media, TV, and films would also make a difference.
+
+We need to spread the message that you can look OK but might actually be struggling or look weird but just trying to cope being in a stressful environment, look drunk but just be dealing with neurological problems.
+
+**Don’t assume. Keep an open mind.**
+
+## Why people often do not want to disclose they have an invisible disability?
+> _“Knowing someone has a disability more often than not changes the way you perceive them. Whether the reaction is discriminatory or empathetic, this unwanted attention can make life feel suffocating. In being open about our disability, we unfortunately have to accept the reality that people will treat us differently.”_ — [Isabelle Jani-Friend](https://www.theguardian.com/commentisfree/2019/aug/09/disabilities-invisible-prove-stangers-disabled-services-illnesses)
+> _“Most days, most places, I don’t want to tell. I don’t want to tell the driver or the scowling elderly passengers why I need a seat on the bus. I don’t want to explain that I’m not there to teach the yoga for disabilities class.”_ From [Coming Out as a Person With an Invisible Disability – by Hope R. Henderson](https://themighty.com/2017/12/coming-out-as-a-person-with-an-invisible-disability/)
+## More on the subject
+[Work and disability](https://www.nhs.uk/conditions/social-care-and-support-guide/money-work-and-benefits/work-and-disability/) – NHS
+
+[How do you define invisible disability?](https://invisibledisabilities.org/what-is-an-invisible-disability/) invisible disability definition – Invisibiledisabilities.org
+
+[New blue badge rules to benefit people with hidden disabilities](https://www.theguardian.com/society/2018/jan/21/new-blue-badge-parking-permit-rules-benefit-people-autism-dementia-hidden-disabilities) – the Guardian
+
 <hr>
 
 This post was written to become part of the resources we will share on the [Global Accessibility Awareness Day](https://globalaccessibilityawarenessday.org/) on Thursday 21 May 2020.
-
-
