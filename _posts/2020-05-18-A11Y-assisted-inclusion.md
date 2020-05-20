@@ -11,7 +11,7 @@ A short post to help define these terms
 <!--more-->
 
 ## Accessibility
-Usually, most people have a good idea of what accessibility needs are. They think: screen readers, wheelchairs, and more recently they might even think of dyslexia for example. But there is much more to it:
+Usually, when they hear "Accessibility" most people think: screen readers, wheelchairs, and more recently they might even think of dyslexia for example. But there is much more to it:
 
 ![collage of 8 posters from the Home Office showing we you should do / don't do regardinf designing for deaf or hard of hearing, users on the autistic spectrum, dyslexia, anxiety, physical or motor disabilities, low vision, or screen readers](/images/a11y/do-dont.png)
 
