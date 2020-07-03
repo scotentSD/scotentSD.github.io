@@ -3,7 +3,7 @@ layout: post
 title: Neurodiversity (Autism, ADHD, Dyslexia) - Some simple tips
 author: Stéphanie
 
-published: false
+published: true
 ---
 
 Neurodiversity is not a well known term. It's used to reflect that the way people's brain functions is diverse. There is no 'normal' or 'right' way. 
@@ -74,6 +74,14 @@ Neurodiverse people are often seen as a challenge or a problem, but treating the
 - [Discovering Dyslexia](https://www.dyslexia-reading-well.com/)
 - [Creating a dyslexia friendly workplace](https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide) by British Dyslexia Association
 - [What’s the best font for dyslexia?](https://www.readandspell.com/us/best-font-for-dyslexia)
+
+#### What dyslexia can look like
+There is a wide variety, these are just some examples:
+<p>
+ <video width="930" height="364" controls>
+ <source src="/images/a11y/dyslexia.mp4"  type="video/mp4">
+ </video>
+</p>
 
 ### Autism
 - [DWP Autism and Neurodiversity Toolkit for staff and managers](https://www.autismandneurodiversitytoolkit.org/)
