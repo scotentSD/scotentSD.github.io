@@ -6,10 +6,10 @@ author: Stéphanie
 published: true
 ---
 
-Neurodiversity is not a well known term. It's used to reflect that the way people's brain functions is diverse. There is no 'normal' or 'right' way. 
-People with autism, ADHD (Attention deficit hyperactivity disorder) or dyslexia are part of this neurodiversity.
+Neurodiversity is not a well known term. It's used to reflect one the diversity of ways people's brain functions. There is no 'normal' or 'right' way. 
+People with autism, ADHD (Attention Deficit Hyperactivity Disorder) or dyslexia are part of this neurodiversity.
 
-Here are some tips based on the [Home Office 'Do and don't Posters](https://github.com/UKHomeOffice/posters/blob/master/accessibility/dos-donts/posters_en-UK/accessibility-posters-set.pdf)' and a talk by **Rachel Morgan-Trimmer** for Accessiblity Manchester ([link to the video of her talk starting at 16:34](https://youtu.be/7Tt_-gtUCgo?t=994))
+Here are some tips based on the [Home Office 'Do and don't Posters](https://github.com/UKHomeOffice/posters/blob/master/accessibility/dos-donts/posters_en-UK/accessibility-posters-set.pdf)' and a talk by [**Rachel Morgan-Trimmer**](https://twitter.com/SparkleClass) for Accessiblity Manchester ([link to the video of her talk starting at 16:34](https://youtu.be/7Tt_-gtUCgo?t=994))
 
 
 
