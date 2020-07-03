@@ -38,7 +38,7 @@ For example, add a photo of your building entrance on your website so when peopl
 
 Good visuals will make your information more memorable, and will help support people's attention.
 
-### 4. Use fewer words and use simple sentences and bullets point
+### 4. Use fewer words and use simple sentences and bullet points
 Only give people what is relevant to them at the right time. 
 
 Dont create a wall of text.
@@ -63,7 +63,7 @@ By asking them what they need (sitting at the front or at the back, having a bre
 People might be distracted, doing something else or not undernstand it the way you intented to.
 
 ### 9. People might be hiding their condition or needs
-... and be very good at making it as they have done it for years!
+... and be very good at it as they have done it for years!
 
 ### 10. Do nothing
 Neurodiverse people are often seen as a challenge or a problem, but treating them normally makes them feel included.
