@@ -12,9 +12,10 @@ description: Designing in the open
 # avatar: /images/Octocat.png
 avatar: https://scotentsd.github.io/images/saltire.png
 
+# removed the blog (25/11/20) SK
 # Adding Paginator variables  for the Blog  // see https://devhints.io/jekyll and https://jekyllrb.com/docs/pagination/
-paginate: 1 # only one post per page
-paginate_path: "/blog/page:num/"
+# paginate: 1 # only one post per page
+# paginate_path: "/blog/page:num/"
 
 #
 # Flags below are optional
