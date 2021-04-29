@@ -16,6 +16,7 @@ form {
 a {
   color: #0258a6; // was #00427f; still gets AAA rating
   font-weight: 500; // was normal 400 but help for readability of the text link
+  text-decoration: underline; // added as the main theme is taking this away and it's not accessible
 }
 
 footer a:hover, footer a:focus {
