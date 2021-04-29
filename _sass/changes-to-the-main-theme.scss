@@ -41,11 +41,11 @@ nav a {
   padding: 0 10px;
   font-size: 24px;
   font-weight: 600;
-  text-decoration: underline; // was none but not great from an asccessiblity point of view (SK)
+  text-decoration: none;
 }
 
 nav a:hover, nav a:focus {
-  text-decoration: none; // was underline but change to make a visual change (SK)
+  text-decoration: underline; 
   color: #ffffff ;
   font-weight: 700;
 }
