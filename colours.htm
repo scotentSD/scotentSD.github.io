@@ -1,5 +1,13 @@
-<h1 style="color: var(--blue); background-color: var(--lime); text-align: center; margin-top: 0; padding: 2rem 0;">Colour contrast</h1>
-<table>
+<h1>Colour contrast</h1>
+<form>
+  <fieldset>
+    <legend>Filter by WCAG conformance</legend>
+    <input type="radio" name="level" id="all" checked> <label for="all">Show all</label>
+    <input type="radio" name="level" id="aa"> <label for="aa">Level AA</label>
+    <input type="radio" name="level" id="aaa"> <label for="aaa">Level AAA</label>
+  </fieldset>
+</form>
+<table id="table">
   <caption>
     This table represents the <a href="https://juicystudio.com/services/luminositycontrastratio.php">luminosity contrast ratio</a> calculated between foreground (columns) and background (rows) colours.
   </caption>
@@ -530,6 +538,25 @@ html {
   --black: #000;
   --white: #fff;
 }
+form {
+  max-width: 24rem;
+  margin: 0 0 1rem 2rem;
+  position: sticky;
+  top: 2rem;
+  z-index:  99;
+}
+label {
+  padding: 1rem 1rem 1rem 0;
+}
+h1 {
+  position: sticky;
+  top: 0;
+  color: var(--blue);
+  background-color: var(--lime);
+  text-align: center;
+  margin-top: 0;
+  padding: 2rem 0;
+}
 td, th {
   width: 120px;
   height: 134px;
@@ -1029,3 +1056,57 @@ td, th {
 }
 
   </style>
+<script>
+  var table = document.getElementById("table");
+for (var i = 0, row; (row = table.rows[i]); i++) {
+  for (var j = 0, col; (col = row.cells[j]); j++) {
+    if (col.innerHTML.includes("AA")) {
+      col.classList.add("aa");
+    }
+    if (col.innerHTML.includes("AAA")) {
+      col.classList.add("aaa");
+    }
+  }
+}
+
+var aa = document.getElementById("aa");
+var aaa = document.getElementById("aaa");
+var all = document.getElementById("all");
+var cells = document.querySelectorAll("td");
+var fails = document.querySelectorAll("td:not(.aa)");
+var notaaa = document.querySelectorAll("td:not(.aaa)");
+
+all.addEventListener("change", function () {
+  for (var i = 0; i < cells.length; i++) {
+    if (all.checked) {
+      cells[i].style.opacity = 1;
+    }
+  }
+});
+
+aa.addEventListener("change", function () {
+  for (var i = 0; i < cells.length; i++) {
+    if (aa.checked) {
+      cells[i].style.opacity = 1;
+    }
+  }
+  for (var i = 0; i < fails.length; i++) {
+    if (aa.checked) {
+      fails[i].style.opacity = 0;
+    } else {
+      fails[i].style.opacity = 1;
+    }
+  }
+});
+
+aaa.addEventListener("change", function () {
+  for (var i = 0; i < notaaa.length; i++) {
+    if (aaa.checked) {
+      notaaa[i].style.opacity = 0;
+    } else {
+      notaaa[i].style.opacity = 1;
+    }
+  }
+});
+
+</script>
