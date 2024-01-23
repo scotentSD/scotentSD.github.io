@@ -13,6 +13,7 @@ layout: default
       <li><a href="{{ site.baseurl}}/customer-account">BSA- Customer Portal Account</a></li>
       <li><a href="{{ site.baseurl}}/optimisation">SE Website optimisation </a></li>
       <li><a href="{{ site.baseurl}}/sep/index.html">Find Business Support (FBS)</a></li>
+      <li><a href="{{ site.baseurl}}/exportselfassessment">Export Self Assessment</a></li>
 </ul>
 <h2>Learning, resources and techniques</h2>
 <ul>
