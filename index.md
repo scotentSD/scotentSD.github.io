@@ -17,6 +17,7 @@ layout: default
 </ul>
 <h2>Learning, resources and techniques</h2>
 <ul>
+      <li><a href="{{ site.baseurl}}/colours.htm">SE brand colour contrast checker</a> </li>
       <li><a href="{{ site.baseurl}}/a11y/">Accessibility</a> </li>
       <li><a href="{{ site.baseurl}}/feedback/">Customer feedback</a> </li>
       <li><a href="{{ site.baseurl}}/practice/">Practice   (Techniques and Learning)</a> </li>
@@ -27,7 +28,6 @@ layout: default
       <li><a href="{{ site.baseurl}}/insights/">Customer Insights</a> </li>
       <li><a href="{{ site.baseurl}}/charts/">Chart Examples</a> </li>
       <li><a href="{{ site.baseurl}}/resources/">Learn GitHub and Markdown</a> </li>
-      <li><a href="https://numbat70.github.io/research/">Research Library</a> </li>
 </ul> 
 <hr /> 
 <div>Last updated: {{site.time | date_to_string}}</div>
