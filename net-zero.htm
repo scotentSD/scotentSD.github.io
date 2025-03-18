@@ -1356,5 +1356,75 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 </script>
+
+<script type="text/javascript">document.addEventListener('DOMContentLoaded', function() {
+    // adds a class to main content
+    var mainContentDiv = document.getElementById('mainContent');
+    mainContentDiv.classList.add('document-upload');
+
+    var fileUploadInput = document.getElementById('AttachFile');
+    var uploadButton = document.getElementById('InsertButton');
+    var fileInfoDiv = document.getElementById('file-info');
+    var fileTable = document.getElementById('file-table');
+    var errorSummary = document.querySelectorAll('[id*="ValidationSummaryEntityFormControl"]');
+
+    uploadButton.value = 'Upload';
+
+    // Listen for changes in the file input
+    fileUploadInput.addEventListener('change', function(event) {
+        var fileList = event.target.files;
+        fileInfoDiv.innerHTML = '';
+        fileTable.innerHTML = '';
+
+    // Hides error summary when a new file is selected for upload
+    if(errorSummary){
+        errorSummary.forEach(function(element) {
+            element.style.display = 'none';
+        });
+    }
+
+        if (fileList.length > 0) {
+            var tableHTML = '<tr id="table-heading"><th scope="col">File Name</th><th scope="col">Size</th><th scope="col">Action</th></tr>';
+            for (var i = 0; i < fileList.length; i++) {
+                tableHTML += '<tr><td>' + fileList[i].name + '</td><td>' + formatBytes(fileList[i].size) + '</td><td><button class="btn remove-btn" data-index="' + i + '" aria-label="Remove ' + fileList[i].name + '">Remove</button></td></tr>';
+            }
+            fileTable.innerHTML = tableHTML;
+        } else {
+            fileInfoDiv.textContent = ' ';
+        }
+    });
+
+    // Listen for clicks on remove buttons
+    fileTable.addEventListener('click', function(event) {
+        if (event.target.classList.contains('remove-btn')) {
+            var index = parseInt(event.target.getAttribute('data-index'));
+            var fileList = fileUploadInput.files;
+            var newFileList = [];
+            for (var i = 0; i < fileList.length; i++) {
+                if (i !== index) {
+                    newFileList.push(fileList[i]);
+                }
+            }
+            // Create a new FileList object with the updated file list
+            var newFileListObj = new DataTransfer();
+            for (var j = 0; j < newFileList.length; j++) {
+                newFileListObj.items.add(newFileList[j]);
+            }
+            fileUploadInput.files = newFileListObj.files;
+            fileUploadInput.dispatchEvent(new Event('change'));
+        }
+    });
+
+    // Function to format file size
+    function formatBytes(bytes, decimals = 2) {
+        if (bytes === 0) return '0 Bytes';
+        const k = 1024;
+        const dm = decimals < 0 ? 0 : decimals;
+        const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
+        const i = Math.floor(Math.log(bytes) / Math.log(k));
+        return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
+    }
+});</script>
+		
 	</body>
 </html>
