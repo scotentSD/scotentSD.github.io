@@ -672,7 +672,7 @@
                                                                         </div>
                                                                     </fieldset>
                                                                 </div>
-                                                                    <div>
+                                                                    <div id="NZreason">
                                                                         <p>We cannot generally support companies that cannot or will not commit to net zero. Please provide a reason for your selection.</p>
                                                                         <div class="info required">
                                                                             <label for="se_feedbackmessage" id="se_feedbackmessage_label" class="field-label">Your reason for not developing a net zero plan</label>
@@ -1251,7 +1251,55 @@
                 return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
             }
         });</script>
+<style>
+    #EntityFormPanel, #nzsoi, #NZreason {
+        display: none;
+    }
+</style>
+    <script>
+        <script>
+  document.addEventListener("DOMContentLoaded", function () {
+  // Radio buttons
+  const nz1 = document.getElementById("nz1");
+  const nz2 = document.getElementById("nz2");
+  const nz3 = document.getElementById("nz3");
 
+  // Content
+  const option1 = document.getElementById("EntityFormPanel");
+  const option2 = document.getElementById("nzsoi");
+  const option3 = document.getElementById("NZreason");
+
+  nz1.addEventListener("change", function () {
+    if (nz1.checked) {
+      option1.style.display = "block";
+      option2.style.display = "none";
+      option3.style.display = "none";
+    } else {
+      option1.style.display = "none";
+    }
+  });
+
+  nz2.addEventListener("change", function () {
+    if (nz2.checked) {
+      option2.style.display = "block";
+      option1.style.display = "none";
+      option3.style.display = "none";
+    } else {
+      option2.style.display = "none";
+    }
+  });
+
+  nz3.addEventListener("change", function () {
+    if (nz3.checked) {
+      option3.style.display = "block";
+      option1.style.display = "none";
+      option2.style.display = "none";
+    } else {
+      option3.style.display = "none";
+    }
+  });
+}); // End DOMContentLoaded event
+    </script>
 </body>
 
 </html>
