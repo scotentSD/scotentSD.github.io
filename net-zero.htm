@@ -1088,101 +1088,6 @@
     <!-- partial -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
 
-    <style>
-        #ch,
-        #cn,
-        #ut {
-            display: none;
-        }
-    </style>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            // Radio buttons
-            const companieshouse = document.getElementById("companieshouse");
-            const charity = document.getElementById("charity");
-            const utr = document.getElementById("utr");
-
-            // Table rows
-            const ch = document.getElementById("ch");
-            const cn = document.getElementById("cn");
-            const ut = document.getElementById("ut");
-
-            companieshouse.addEventListener("change", function () {
-                if (companieshouse.checked) {
-                    ch.style.display = "block";
-                    cn.style.display = "none";
-                    ut.style.display = "none";
-                } else {
-                    ch.style.display = "none";
-                }
-            });
-
-            charity.addEventListener("change", function () {
-                if (charity.checked) {
-                    cn.style.display = "block";
-                    ch.style.display = "none";
-                    ut.style.display = "none";
-                } else {
-                    cn.style.display = "none";
-                }
-            });
-
-            utr.addEventListener("change", function () {
-                if (utr.checked) {
-                    ut.style.display = "block";
-                    ch.style.display = "none";
-                    cn.style.display = "none";
-                } else {
-                    ut.style.display = "none";
-                }
-            });
-        }); // End DOMContentLoaded event
-
-        // Copy registered address to trading address
-        $(document).ready(function () {
-            $("#new_copytradingaddresstoregaddr_1").change(copyTradingAddress);
-            $("#new_copytradingaddresstoregaddr_0").change(clearRegisteredAddress);
-        });
-
-        function copyTradingAddress() {
-            var result = $("#new_copytradingaddresstoregaddr_1").val();
-            console.log(result);
-
-            $("#se_trading_addressline1").val($("#se_addressline1").val());
-            $("#se_trading_addressline2").val($("#se_addressline2").val());
-            $("#se_trading_addressline3").val($("#se_addressline3").val());
-            $("#se_trading_town").val($("#se_town").val());
-            $("#se_trading_postcode").val($("#se_postcode").val());
-        }
-
-        function clearRegisteredAddress() {
-            $("#se_trading_addressline1").val("");
-            $("#se_trading_addressline2").val("");
-            $("#se_trading_addressline3").val("");
-            $("#se_trading_town").val("");
-            $("#se_trading_postcode").val("");
-        }
-
-        document.addEventListener("DOMContentLoaded", function () {
-            // adds business details class to the body
-            document.body.classList.add("edit-business-details");
-
-            // Fix for the out of the box colspan width (input fields)
-            var cells = document.querySelectorAll('td[colspan="1"]');
-            cells.forEach(function (cell) {
-                cell.colSpan = 2;
-            });
-
-            //Adds class to the fieldset to allow a spacing fix between inputs for the registered address section on the mobile view
-            var registeredAddressFieldset = document.querySelector(
-                'fieldset[aria-label="Registered Address"]'
-            );
-            if (registeredAddressFieldset) {
-                registeredAddressFieldset.classList.add("registered-address-fieldset");
-            }
-        });
-    </script>
-
     <script type="text/javascript">document.addEventListener('DOMContentLoaded', function () {
             // adds a class to main content
             var mainContentDiv = document.getElementById('mainContent');
@@ -1257,7 +1162,6 @@
     }
 </style>
     <script>
-        <script>
   document.addEventListener("DOMContentLoaded", function () {
   // Radio buttons
   const nz1 = document.getElementById("nz1");
