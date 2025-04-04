@@ -430,7 +430,10 @@
                                     </tr>
                                     <tr>
                                       <td>
-                                        <fieldset>
+                                        <p>
+                                          <input type="checkbox" id="ukco" onchange="javascript: document.getElementById('identifier').setAttribute('style', 'display: block;');"> <label for="ukco">My business is registered in the UK</label>
+                                        </p>
+                                        <fieldset id="identifier" style ="display: none;">
                                           <legend>
                                             <h3>Choose an identifier for your business</h3>
                                           </legend>
