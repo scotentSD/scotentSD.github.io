@@ -22,6 +22,20 @@
             margin-bottom: 1rem !important;
         }
     </style>
+      <script>
+      // Insert the current date into the date cell
+      window.addEventListener("load", function() {
+        const today = new Date();
+        const day = String(today.getDate()).padStart(2, '0');
+        const month = String(today.getMonth() + 1).padStart(2, '0'); // January is 0!
+        const year = today.getFullYear();
+        
+        const formattedDate = `${day}/${month}/${year}`;
+        console.log(formattedDate);
+        let datecell = document.getElementById('new-request__date');
+        datecell.innerText = formattedDate;
+        });     
+        </script>
 </head>
 
 <body>
@@ -315,25 +329,6 @@
               </div>
             
             <!-- New requests and engagements -->
-                  <script>
-                      // Insert the current date into the date cell
-                      window.onload = function () {
-                        const today = new Date();
-                        const day = String(today.getDate()).padStart(2, '0');
-                        const month = String(today.getMonth() + 1).padStart(2, '0'); // January is 0!
-                        const year = today.getFullYear();
-                        
-                        const formattedDate = `${day}/${month}/${year}`;
-                        console.log(formattedDate);
-                        let datecell = document.getElementById('new-request__date');
-                        datecell.innerText = formattedDate;
-                    };
-                    
-
-                  </script>
-              
-                  
-            
                 <section class="new-requests">
                   <div class="container">
                     <div class="row">
@@ -341,13 +336,12 @@
                       <div class="col-md-10">
                     <h2 class="text-center">New requests and engagements</h2>
                     <table id="new-requests">
-                      
                         <tbody><tr>
                           <th id="new-request__link"><a href="https://scotentsd.github.io/sanctions-declaration.htm">Complete your registration</a></th>
                           <th id="new-request__date"></th>
                         </tr>
-                       
-                    </tbody></table>
+                    </tbody>
+                    </table>
                       </div>
                     </div>
                   </div>
