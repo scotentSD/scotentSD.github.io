@@ -1,7 +1,7 @@
 <html lang="en">
 
 <head>
-    <title>Your commitment to net zero</title>
+    <title>Welcome to your Scottish Enterprise account</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel='stylesheet' href='https://account.scottish-enterprise.com/bootstrap.min.css?1730719127000'>
@@ -315,8 +315,22 @@
               </div>
             
             <!-- New requests and engagements -->
-              
-                  
+                  <script>
+                      // Insert the current date into the date cell
+                      window.onload = function () {
+                        const today = new Date();
+                        const day = String(today.getDate()).padStart(2, '0');
+                        const month = String(today.getMonth() + 1).padStart(2, '0'); // January is 0!
+                        const year = today.getFullYear();
+                        
+                        const formattedDate = `${day}/${month}/${year}`;
+                        console.log(formattedDate);
+                        let datecell = document.getElementById('new-request__date');
+                        datecell.innerText = formattedDate;
+                    };
+                    
+
+                  </script>
               
                   
             
@@ -330,7 +344,7 @@
                       
                         <tbody><tr>
                           <th id="new-request__link"><a href="https://scotentsd.github.io/sanctions-declaration.htm">Complete your registration</a></th>
-                          <th id="new-request__date">04/04/2025</th>
+                          <th id="new-request__date"></th>
                         </tr>
                        
                     </tbody></table>
