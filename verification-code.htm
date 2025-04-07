@@ -3315,11 +3315,17 @@ $element.generateServiceContent();
                 <div id="claimVerificationServerError" class="error pageLevel" style="display: none;" aria-hidden="true"></div>
                 <div id="attributeList" class="attr">
                     <ul>
-                        <li class="TextBox userMfaCode_li"><div class="attrEntry"><label id="userMfaCode_label" for="userMfaCode">Verification code</label><div class="error itemLevel" role="alert"></div><input id="userMfaCode" class="textInput" type="text" placeholder="Verification code" aria-label="Verification code" aria-required="true" autofocus="autofocus"><a class="helpLink tiny" href="javascript:void(0)">What is this?</a></div></li>
-                        
-                        
-                        
-                        <li class="TextBox cssUrl_li hidden"><div class="attrEntry"><label id="cssUrl_label" for="cssUrl">Custom App CSS Url</label><div class="error itemLevel" role="alert"></div><input id="cssUrl" class="textInput" type="text" placeholder="Custom App CSS Url" aria-label="Custom App CSS Url"><a class="helpLink tiny" href="javascript:void(0)">What is this?</a></div></li>
+                        <li class="TextBox userMfaCode_li">
+                            <div class="attrEntry">
+                                <label id="userMfaCode_label" for="userMfaCode">Verification code</label>
+                                <div class="error itemLevel" role="alert"></div>
+                                <input id="userMfaCode" class="textInput" type="text" placeholder="Verification code" aria-label="Verification code" aria-required="true" autofocus="autofocus" inputmode="numeric">
+                                <a class="helpLink tiny" href="javascript:void(0)">What is this?</a>
+                            </div>
+                        </li>
+                        <li class="TextBox cssUrl_li hidden">
+                            <div class="attrEntry">
+                                <label id="cssUrl_label" for="cssUrl">Custom App CSS Url</label><div class="error itemLevel" role="alert"></div><input id="cssUrl" class="textInput" type="text" placeholder="Custom App CSS Url" aria-label="Custom App CSS Url"><a class="helpLink tiny" href="javascript:void(0)">What is this?</a></div></li>
                     </ul>
                 </div>
                 <div class="buttons">
