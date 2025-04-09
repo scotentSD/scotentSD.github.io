@@ -3310,7 +3310,15 @@ $element.generateServiceContent();
           <h2>OR</h2>
         </div>
       <form id="localAccountForm" action="JavaScript:void(0);" class="localAccount" aria-label="Sign in with your email address">
-        
+      <script>
+            window.onload = function() {
+                document.getElementById('togglePassword').addEventListener('click', function () {
+                const passwordField = document.getElementById('password');
+                const type = passwordField.getAttribute('type') === 'password' ? 'text' : 'password';
+                passwordField.setAttribute('type', type);
+                });
+            };
+            </script>  
         <div class="error pageLevel" aria-hidden="true" role="alert" style="display: none;">
           <p></p>
         </div>
@@ -3332,7 +3340,10 @@ $element.generateServiceContent();
               <div class="error itemLevel" aria-hidden="true" style="display: none;">
                 <p role="alert"></p>
               </div>
-              <input type="password" id="password" name="Enter Password" placeholder="Enter Password" aria-label="Enter Password" autocomplete="current-password" aria-required="true"><span class="togglePassword show"><img src="https://scotent-uat-myaccount-website.azurewebsites.net/b2c/icons/password-show.svg" width="55" height="55" alt="show"></span>
+              <input type="password" id="password" name="Enter Password" placeholder="Enter Password" aria-label="Enter Password" autocomplete="current-password" aria-required="true">
+                <span class="togglePassword show" id="togglePassword">
+                    <img src="https://scotent-uat-myaccount-website.azurewebsites.net/b2c/icons/password-show.svg" width="55" height="55" alt="show">
+                </span>
                           </div>
           <div class="working"></div>
 
