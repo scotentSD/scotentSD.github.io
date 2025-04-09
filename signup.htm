@@ -3311,7 +3311,15 @@ $element.generateServiceContent();
               
             <div class="buttons">
             </div>
-            
+            <script>
+            window.onload = function() {
+                document.getElementById('togglePassword').addEventListener('click', function () {
+                const passwordField = document.getElementById('newPassword');
+                const type = passwordField.getAttribute('type') === 'password' ? 'text' : 'password';
+                passwordField.setAttribute('type', type);
+                }
+            });
+            </script>
             <form id="attributeVerification" action="JavaScript:void(0);">
                 <div id="passwordEntryMismatch" class="error pageLevel" style="display: none;" aria-hidden="true">The password entry fields do not match. Please enter the same password in both fields and try again.</div>
                 <div id="requiredFieldMissing" class="error pageLevel" style="display: none;" aria-hidden="true">A required field is missing. Please fill out all required fields and try again.</div>
@@ -3320,7 +3328,18 @@ $element.generateServiceContent();
                 <div id="attributeList" class="attr">
                     <ul>
                         <li class="TextBox email_li"><div class="attrEntry"><label id="email_label" for="email">Email Address</label><div class="error itemLevel" role="alert"></div><input id="email" class="textInput" type="text" placeholder="Email Address" aria-label="Email Address" title="Email address that can be used to contact you." aria-required="true" autofocus="autofocus"><a class="helpLink tiny" href="javascript:void(0)" data-help="Email address that can be used to contact you.">What is this?</a></div></li>
-                        <li class="Password newPassword_li"><div class="attrEntry"><label id="newPassword_label" for="newPassword">Create Password</label><p class="helpText">Password must be at least 8 characters and contain all of the following: a lowercase letter, an uppercase letter, a number and a symbol</p><div class="error itemLevel" role="alert"></div><input id="newPassword" class="textInput" type="password" placeholder="Create Password" aria-label="Create Password" title="Password must be at least 8 characters and contain all of the following: a lowercase letter, an uppercase letter, a number and a symbol" autocomplete="new-password" aria-required="true"><span class="togglePassword show"><img src="https://scotent-uat-myaccount-website.azurewebsites.net/b2c/icons/password-show.svg" width="55" height="55" alt="show"></span><a class="helpLink tiny" href="javascript:void(0)" data-help="Password must be at least 8 characters and contain all of the following: a lowercase letter, an uppercase letter, a number and a symbol">What is this?</a></div></li>
+                        <li class="Password newPassword_li">
+                            <div class="attrEntry">
+                                <label id="newPassword_label" for="newPassword">Create Password</label>
+                                <p class="helpText">Password must be at least 8 characters and contain all of the following: a lowercase letter, an uppercase letter, a number and a symbol</p>
+                                <div class="error itemLevel" role="alert"></div>
+                                <input id="newPassword" class="textInput" type="password" placeholder="Create Password" aria-label="Create Password" title="Password must be at least 8 characters and contain all of the following: a lowercase letter, an uppercase letter, a number and a symbol" autocomplete="new-password" aria-required="true">
+                                <span id="togglePassword" class="togglePassword show">
+                                    <img src="https://scotent-uat-myaccount-website.azurewebsites.net/b2c/icons/password-show.svg" width="55" height="55" alt="show">
+                                </span>
+                                <a class="helpLink tiny" href="javascript:void(0)" data-help="Password must be at least 8 characters and contain all of the following: a lowercase letter, an uppercase letter, a number and a symbol">What is this?</a>
+                            </div>
+                        </li>
                         <li class="Password reenterPassword_li"><div class="attrEntry"><label id="reenterPassword_label" for="reenterPassword">Confirm New Password</label><div class="error itemLevel" role="alert"></div><input id="reenterPassword" class="textInput" type="password" placeholder="Confirm New Password" aria-label="Confirm New Password" autocomplete="new-password" aria-required="true"><a class="helpLink tiny" href="javascript:void(0)">What is this?</a></div></li>
                         <li class="CheckboxMultiSelect acceptPrivacyPolicy_li"><div class="attrEntry"><label id="acceptPrivacyPolicy_label" for="acceptPrivacyPolicy"></label><div class="error itemLevel" role="alert"></div><input id="acceptPrivacyPolicy_AcceptPrivacyPolicy" name="acceptPrivacyPolicy" type="checkbox" aria-labelledby="acceptPrivacyPolicy_label acceptPrivacyPolicy_AcceptPrivacyPolicy" value="AcceptPrivacyPolicy"><label id="AcceptPrivacyPolicy_option" for="acceptPrivacyPolicy_AcceptPrivacyPolicy" class="checkboxLabel">I've read and understand the <a href="https://www.scottish-enterprise.com/help/privacy-notice" target="_blank">privacy policy</a></label><a class="helpLink tiny" href="javascript:void(0)">What is this?</a></div></li>
                         <li class="CheckboxMultiSelect agreeTermsAndConditions_li"><div class="attrEntry"><label id="agreeTermsAndConditions_label" for="agreeTermsAndConditions"></label><div class="error itemLevel" role="alert"></div><input id="agreeTermsAndConditions_AgreeTermsAndConditions" name="agreeTermsAndConditions" type="checkbox" aria-labelledby="agreeTermsAndConditions_label agreeTermsAndConditions_AgreeTermsAndConditions" value="AgreeTermsAndConditions"><label id="AgreeTermsAndConditions_option" for="agreeTermsAndConditions_AgreeTermsAndConditions" class="checkboxLabel">I've read and agree to the <a href="https://scotent-live-myaccount-website.azurewebsites.net/help/terms-of-use" target="_blank">terms and conditions</a></label><a class="helpLink tiny" href="javascript:void(0)">What is this?</a></div></li>
