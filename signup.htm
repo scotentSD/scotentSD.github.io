@@ -3318,6 +3318,11 @@ $element.generateServiceContent();
                 const type = passwordField.getAttribute('type') === 'password' ? 'text' : 'password';
                 passwordField.setAttribute('type', type);
                 });
+                document.getElementById('togglePassword2').addEventListener('click', function () {
+                const passwordField2 = document.getElementById('reenterPassword');
+                const type2 = passwordField2.getAttribute('type') === 'password' ? 'text' : 'password';
+                passwordField2.setAttribute('type', type);
+                });
             };
             </script>
             <form id="attributeVerification" action="JavaScript:void(0);">
@@ -3340,7 +3345,17 @@ $element.generateServiceContent();
                                 <a class="helpLink tiny" href="javascript:void(0)" data-help="Password must be at least 8 characters and contain all of the following: a lowercase letter, an uppercase letter, a number and a symbol">What is this?</a>
                             </div>
                         </li>
-                        <li class="Password reenterPassword_li"><div class="attrEntry"><label id="reenterPassword_label" for="reenterPassword">Confirm New Password</label><div class="error itemLevel" role="alert"></div><input id="reenterPassword" class="textInput" type="password" placeholder="Confirm New Password" aria-label="Confirm New Password" autocomplete="new-password" aria-required="true"><a class="helpLink tiny" href="javascript:void(0)">What is this?</a></div></li>
+                        <li class="Password reenterPassword_li">
+                            <div class="attrEntry">
+                                <label id="reenterPassword_label" for="reenterPassword">Confirm New Password</label>
+                                <div class="error itemLevel" role="alert"></div>
+                                <input id="reenterPassword" class="textInput" type="password" placeholder="Confirm New Password" aria-label="Confirm New Password" autocomplete="new-password" aria-required="true">
+                                <span id="togglePassword2" class="togglePassword show">
+                                    <img src="https://scotent-uat-myaccount-website.azurewebsites.net/b2c/icons/password-show.svg" width="55" height="55" alt="show">
+                                </span>
+                                <a class="helpLink tiny" href="javascript:void(0)">What is this?</a>
+                            </div>
+                        </li>
                         <li class="CheckboxMultiSelect acceptPrivacyPolicy_li"><div class="attrEntry"><label id="acceptPrivacyPolicy_label" for="acceptPrivacyPolicy"></label><div class="error itemLevel" role="alert"></div><input id="acceptPrivacyPolicy_AcceptPrivacyPolicy" name="acceptPrivacyPolicy" type="checkbox" aria-labelledby="acceptPrivacyPolicy_label acceptPrivacyPolicy_AcceptPrivacyPolicy" value="AcceptPrivacyPolicy"><label id="AcceptPrivacyPolicy_option" for="acceptPrivacyPolicy_AcceptPrivacyPolicy" class="checkboxLabel">I've read and understand the <a href="https://www.scottish-enterprise.com/help/privacy-notice" target="_blank">privacy policy</a></label><a class="helpLink tiny" href="javascript:void(0)">What is this?</a></div></li>
                         <li class="CheckboxMultiSelect agreeTermsAndConditions_li"><div class="attrEntry"><label id="agreeTermsAndConditions_label" for="agreeTermsAndConditions"></label><div class="error itemLevel" role="alert"></div><input id="agreeTermsAndConditions_AgreeTermsAndConditions" name="agreeTermsAndConditions" type="checkbox" aria-labelledby="agreeTermsAndConditions_label agreeTermsAndConditions_AgreeTermsAndConditions" value="AgreeTermsAndConditions"><label id="AgreeTermsAndConditions_option" for="agreeTermsAndConditions_AgreeTermsAndConditions" class="checkboxLabel">I've read and agree to the <a href="https://scotent-live-myaccount-website.azurewebsites.net/help/terms-of-use" target="_blank">terms and conditions</a></label><a class="helpLink tiny" href="javascript:void(0)">What is this?</a></div></li>
                         <li class="TextBox cssUrl_li hidden"><div class="attrEntry"><label id="cssUrl_label" for="cssUrl">Custom App CSS Url</label><div class="error itemLevel" role="alert"></div><input id="cssUrl" class="textInput" type="text" placeholder="Custom App CSS Url" aria-label="Custom App CSS Url"><a class="helpLink tiny" href="javascript:void(0)">What is this?</a></div></li>
