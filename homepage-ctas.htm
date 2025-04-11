@@ -42,7 +42,7 @@
         const year = today.getFullYear();
         const formattedDate = `${day}/${month}/${year}`;
           
-        // Select all table cells with the class 'datecell'
+        // Select all date cells
         const dateCells = document.querySelectorAll('.new-request__date');
         
         // Populate each cell with today's date
@@ -76,9 +76,28 @@
             }
         }
 
-        // Call the function to hide elements
         hideElements();  
-        });     
+        });
+
+        // Get the current URL's query string
+        const queryString = window.location.search;
+
+        // Select all table cells with the class 'datecell'
+        const links = document.querySelectorAll('.new-request__link > a');
+
+        // Populate each cell with today's date
+        links.forEach(link => {
+            link.href += queryString;
+        });
+        
+        // Select the link element you want to modify
+        //const linkElement = document.querySelector('a#yourLinkId');
+        
+        // Append the query string to the href attribute
+        //if (linkElement) {
+          //linkElement.href += queryString;
+        //}
+
         </script>
 </head>
 
