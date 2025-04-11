@@ -34,7 +34,7 @@
 
     </style>
       <script>
-      // Insert the current date into the date cell
+      // Insert the current date into the date cells
       window.addEventListener("load", function() {
         const today = new Date();
         const day = String(today.getDate()).padStart(2, '0');
@@ -43,8 +43,6 @@
         
         const formattedDate = `${day}/${month}/${year}`;
         console.log(formattedDate);
-        let datecell = document.getElementById('new-request__date');
-        datecell.innerText = formattedDate;
           
           // Select all table cells with the class 'datecell'
         const dateCells = document.querySelectorAll('.datecell');
