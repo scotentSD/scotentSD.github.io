@@ -92,15 +92,15 @@
             });
         }, 3000);
 
-        
-        
-        // Select the link element you want to modify
-        //const linkElement = document.querySelector('a#yourLinkId');
-        
-        // Append the query string to the href attribute
-        //if (linkElement) {
-          //linkElement.href += queryString;
-        //}
+            const r1 = document.getElementById('r1');
+            const r2 = document.getElementById('r2');
+            const r3 = document.getElementById('r3');
+            const norequests = document.getElementById('no-requests');  
+            if (r1.classList.contains('hidden') &&
+                  r2.classList.contains('hidden') &&
+                  r3.classList.contains('hidden')) {
+                  norequests.classList.remove('hidden'); // Show the holding message
+              }
 
         </script>
 </head>
