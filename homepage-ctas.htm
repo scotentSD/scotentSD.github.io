@@ -83,13 +83,16 @@
         // Get the current URL's query string
         const queryString = window.location.search;
 
-        // Select all table cells with the class 'datecell'
-        const requestlinks = document.querySelectorAll('.new-request__link > a');
+        setTimeout(function() {
+            // Select all links to actions
+            const requestlinks = document.querySelectorAll('.new-request__link > a');
+            // Append the querystring
+            requestlinks.forEach(requestlink => {
+                requestlink.href += queryString;
+            });
+        }, 3000);
 
-        // Populate each cell with today's date
-        requestlinks.forEach(requestlink => {
-            requestlink.href += queryString;
-        });
+        
         
         // Select the link element you want to modify
         //const linkElement = document.querySelector('a#yourLinkId');
