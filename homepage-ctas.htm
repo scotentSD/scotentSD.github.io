@@ -34,7 +34,6 @@
 
     </style>
       <script>
-      //window.addEventListener("load", function() {
         document.addEventListener('DOMContentLoaded', () => {
         // Insert the current date into the date cells
         const today = new Date();
@@ -78,9 +77,8 @@
         }
 
         hideElements();  
-        });
 
-        // Get the current URL's query string
+                    // Get the current URL's query string
         const queryString = window.location.search;
 
         setTimeout(function() {
@@ -101,6 +99,8 @@
                   r3.classList.contains('hidden')) {
                   norequests.classList.remove('hidden'); // Show the holding message
               }
+        
+        });
 
         </script>
 </head>
