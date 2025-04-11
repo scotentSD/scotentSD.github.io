@@ -45,6 +45,14 @@
         console.log(formattedDate);
         let datecell = document.getElementById('new-request__date');
         datecell.innerText = formattedDate;
+          
+          // Select all table cells with the class 'datecell'
+        const dateCells = document.querySelectorAll('.datecell');
+        
+        // Populate each cell with today's date
+        dateCells.forEach(cell => {
+            cell.textContent = formattedDate;
+            });
         });     
         </script>
 </head>
