@@ -84,11 +84,11 @@
         const queryString = window.location.search;
 
         // Select all table cells with the class 'datecell'
-        const links = document.querySelectorAll('.new-request__link > a');
+        const requestlinks = document.querySelectorAll('.new-request__link > a');
 
         // Populate each cell with today's date
-        links.forEach(link => {
-            link.href += queryString;
+        requestlinks.forEach(requestlink => {
+            requestlink.href += queryString;
         });
         
         // Select the link element you want to modify
