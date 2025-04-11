@@ -21,8 +21,8 @@
 	document.addEventListener('DOMContentLoaded', () => {
 		const InsertButton = document.getElementById('InsertButton');
 		const queryString = window.location.search;
-		const loc = 'https:\/\/scotentsd.github.io\/homepage-ctas.htm' + queryString + '&r3=hide';
-		InsertButton.setAttribute('onclick', 'javascript: window\.location\.href = ' + loc);
+		const target = 'https:\/\/scotentsd.github.io\/homepage-ctas.htm' + queryString + '&r3=hide';
+		InsertButton.setAttribute('onclick', 'javascript: window\.location\.href = ' + target);
 	});
 </script>
 		
@@ -607,7 +607,7 @@
                                                                                 name="ctl00$ContentContainer$EntityFormControl_92a656ac85f5ee11a1fe000d3a2d56a2$InsertButton"
                                                                                 value="Upload"
                                                                                 onclick="javascript:if(typeof entityFormClientValidate === 'function'){if(entityFormClientValidate()){if(typeof Page_ClientValidate === 'function'){if(Page_ClientValidate('')){clearIsDirty();disableButtons();this.value = 'Processing...';}}else{clearIsDirty();disableButtons();this.value = 'Processing...';}}else{return false;}}else{if(typeof Page_ClientValidate === 'function'){if(Page_ClientValidate('')){clearIsDirty();disableButtons();this.value = 'Processing...';}}else{clearIsDirty();disableButtons();this.value = 'Processing...';}};WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentContainer$EntityFormControl_92a656ac85f5ee11a1fe000d3a2d56a2$InsertButton&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"
-                                                                                id="InsertButton"
+                                                                                id="UploadButton"
                                                                                 class="submit-btn btn btn-secondary form-action-container-left">
                                                                         </div>
                                                                     </div>
@@ -997,7 +997,7 @@
             mainContentDiv.classList.add('document-upload');
 
             var fileUploadInput = document.getElementById('AttachFile');
-            var uploadButton = document.getElementById('InsertButton');
+            var uploadButton = document.getElementById('UploadButton');
             var fileInfoDiv = document.getElementById('file-info');
             var fileTable = document.getElementById('file-table');
             var errorSummary = document.querySelectorAll('[id*="ValidationSummaryEntityFormControl"]');
