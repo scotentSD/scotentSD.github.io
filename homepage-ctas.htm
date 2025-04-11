@@ -81,14 +81,14 @@
                     // Get the current URL's query string
         const queryString = window.location.search;
 
-        setTimeout(function() {
+
             // Select all links to actions
             const requestlinks = document.querySelectorAll('.new-request__link > a');
             // Append the querystring
             requestlinks.forEach(requestlink => {
                 requestlink.href += queryString;
             });
-        }, 3000);
+
 
             const r1 = document.getElementById('r1');
             const r2 = document.getElementById('r2');
