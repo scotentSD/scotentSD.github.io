@@ -78,19 +78,28 @@
 
         hideElements();  
 
-                    // Get the current URL's query string
+        // Get the current URL's query string
         const queryString = window.location.search;
             let heroPanel = document.querySelector('#home-page .panel .col-md-10');
+            
+            function countOccurrences(str, char) {
+                let count = 0;
+                for (let i = 0; i < str.length; i++) {
+                    if (str[i] === char) {
+                        count++;
+                    }
+                }
+                return count;
+            }
+            let n =countOccurrences(queryString, '&');
 
-            if ((queryString.indexOf('&') > -1) && (queryString.indexOf('&') < 2)) { // There are 1 or 2 parameters
-                // Update the welcome panel 
+            if(n<3) {
                 heroPanel.innerHTML = '<h1>Please complete your diligence checks<\/h1><p>You must complete these checks before we can support your business.<\/p>';
-            } else if (queryString.indexOf('&') > 1) { // There are 3 parameters
-                // Update the welcome panel 
-                let heroPanel = document.querySelector('#home-page .panel .col-md-10');
-                heroPanel.innerHTML = '<h1>You&apos;ve completed your diligence checks<\/h1><p>Thank you. Your account manager will be in touch to discuss next steps.<\/p>';
             }
 
+            else if(n>2) {
+                heroPanel.innerHTML = '<h1>You&apos;ve completed your diligence checks<\/h1><p>Thank you. Your account manager will be in touch to discuss next steps.<\/p>';
+            }
 
             // Select all links to actions
             const requestlinks = document.querySelectorAll('.new-request__link > a');
