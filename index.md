@@ -3,8 +3,7 @@ layout: default
 ---
 
 <h2>Workstreams</h2>
-<ul>
-      
+<ul>  
       <li><a href="{{ site.baseurl}}/international">International Networks</a></li>
       <li><a href="{{ site.baseurl}}/SOSE">South of Scotland Enterprise (SoSE)</a></li>
       <li><a href="{{ site.baseurl}}/export">Export (Trade)</a></li>
@@ -27,7 +26,8 @@ layout: default
       <li><a href="{{ site.baseurl}}/resources/">Github pages resources</a> </li>
       <li><a href="{{ site.baseurl}}/insights/">Customer Insights</a> </li>
       <li><a href="{{ site.baseurl}}/charts/">Chart Examples</a> </li>
-      <li><a href="{{ site.baseurl}}/resources/">Learn GitHub and Markdown</a> </li>
+      <li><a href="{{ site.baseurl}}/research/">Research Library</a> </li>
+      
 </ul> 
 <hr /> 
 <div>Last updated: {{site.time | date_to_string}}</div>
