@@ -93,11 +93,11 @@
             }
             let n =countOccurrences(queryString, '&');
 
-            if((n>0) && (n<3)) {
+            if((n>0) && (n<4)) {
                 heroPanel.innerHTML = '<h1>Please complete your diligence checks<\/h1><p>You must complete these checks before we can support your business.<\/p>';
             }
 
-            else if(n>2) {
+            else if(n>3) {
                 heroPanel.innerHTML = '<h1>You&apos;ve completed your diligence checks<\/h1><p>Thank you. Your account manager will be in touch to discuss next steps.<\/p>';
             }
 
@@ -112,10 +112,12 @@
             const r1 = document.getElementById('r1');
             const r2 = document.getElementById('r2');
             const r3 = document.getElementById('r3');
+            const r4 = document.getElementById('r4');
             const norequests = document.getElementById('no-requests');  
             if (r1.classList.contains('hidden') &&
                   r2.classList.contains('hidden') &&
-                  r3.classList.contains('hidden')) {
+                  r3.classList.contains('hidden')) &&
+                  r4.classList.contains('hidden')) {
                   norequests.classList.remove('hidden'); // Show the holding message
               }
         
@@ -427,6 +429,10 @@
                             </tr>
                             <tr id="r3">
                               <td class="new-request__link"><a href="https://scotentsd.github.io/fwf.htm">Complete your fair work assessment</a></td>
+                              <td class="new-request__date"></td>
+                            </tr>
+                            <tr id="r4">
+                              <td class="new-request__link"><a href="https://scotentsd.github.io/equalities.htm">Check your diversity information</a></td>
                               <td class="new-request__date"></td>
                             </tr>
                     </tbody>
