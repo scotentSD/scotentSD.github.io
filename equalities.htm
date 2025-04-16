@@ -251,7 +251,7 @@
                 <div class="col-md-10">
                   <h1>Equality and diversity</h1>
                   <p>Here’s the information we’ve saved about your company. You can edit these details if anything is incorrect or out of date.</p>
-                  <p>Information you provide here is only used to monitor our performance. It does not affect your company's eligibility for, or likelihood to be offered, any of our services.</p>
+                  <p>Information you provide here is only used to monitor our performance. It does not affect your company's eligibility for, or likelihood to be offered, any of our services. All fields are optional.</p>
                 </div>
               </div>
             </div>
@@ -423,19 +423,108 @@
                         <div class="tab clearfix">
                           <div class="tab-column" style="width:100%;">
                             <div>
+				<h2>Gender</h2>
                               <fieldset>
 					<legend>
-						<h2>Gender</h2>
+						<h3>What is the composition of the Company Founders?</h3>
 					</legend>
-					<p class="help-text">We pay at least Real Living Wage to all employees aged 16 and over including apprentices and those contracted to act and carry out works on your behalf. </p>
+					<p class="help-text">Please enter a number against each option.</p>
 					<ul style="list-style-type: none;">
 						<li>
-							<input type="radio" name="rlw" id="rlw1"> <label for="rlw1">We can demonstrate this</label>
+							<div class="info">
+								<label for="founders-female" id="founders-female_label" class="field-label">Female</label>
+								<div class="validators">
+									<span id="MaximumLengthValidatornew_companieshouseregistrationnumber" style="visibility:hidden;">*</span>
+								</div>
+							</div>
+							<div class="control">
+								<input name="founders-female" type="text" inputmode="numeric" maxlength="2" id="founders-female" class="text form-control " onchange="setIsDirty(this.id);" onkeypress="javascript:return LengthError(this, event);">
+							</div>
 						</li>
 						<li>
-							<input type="radio" name="rlw" id="rlw2"> <label for="rlw2">We are working towards this</label></li>
+							<div class="info">
+								<label for="founders-male" id="founders-male_label" class="field-label">Male</label>
+								<div class="validators">
+									<span id="MaximumLengthValidatornew_companieshouseregistrationnumber" style="visibility:hidden;">*</span>
+								</div>
+							</div>
+							<div class="control">
+								<input name="founders-male" type="text" inputmode="numeric" maxlength="2" id="founders-male" class="text form-control " onchange="setIsDirty(this.id);" onkeypress="javascript:return LengthError(this, event);">
+							</div>
+						</li>
 						<li>
-							<input type="radio" name="rlw" id="rlw3"> <label for="rlw3">We cannot commit to this</label>
+							<div class="info">
+								<label for="founders-nb" id="founders-nb_label" class="field-label">Non-binary</label>
+								<div class="validators">
+									<span id="MaximumLengthValidatornew_companieshouseregistrationnumber" style="visibility:hidden;">*</span>
+								</div>
+							</div>
+							<div class="control">
+								<input name="founders-nb" type="text" inputmode="numeric" maxlength="2" id="founders-nb" class="text form-control " onchange="setIsDirty(this.id);" onkeypress="javascript:return LengthError(this, event);">
+							</div>
+						</li>
+						<li>
+							<div class="info">
+								<label for="founders-pnts" id="founders-pnts_label" class="field-label">Prefer not to say</label>
+								<div class="validators">
+									<span id="MaximumLengthValidatornew_companieshouseregistrationnumber" style="visibility:hidden;">*</span>
+								</div>
+							</div>
+							<div class="control">
+								<input name="founders-pnts" type="text" inputmode="numeric" maxlength="2" id="founders-pnts" class="text form-control " onchange="setIsDirty(this.id);" onkeypress="javascript:return LengthError(this, event);">
+							</div>
+						</li>
+					</ul>
+				</fieldset>
+				    <fieldset>
+					<legend>
+						<h3>What is the composition of the Senior Management Team?</h3>
+					</legend>
+					<p class="help-text">Please enter a number against each option.</p>
+					<ul style="list-style-type: none;">
+						<li>
+							<div class="info">
+								<label for="mgmt-female" id="mgmt-female_label" class="field-label">Female</label>
+								<div class="validators">
+									<span id="MaximumLengthValidatornew_companieshouseregistrationnumber" style="visibility:hidden;">*</span>
+								</div>
+							</div>
+							<div class="control">
+								<input name="mgmt-female" type="text" inputmode="numeric" maxlength="2" id="mgmt-female" class="text form-control " onchange="setIsDirty(this.id);" onkeypress="javascript:return LengthError(this, event);">
+							</div>
+						</li>
+						<li>
+							<div class="info">
+								<label for="mgmt-male" id="mgmt-male_label" class="field-label">Male</label>
+								<div class="validators">
+									<span id="MaximumLengthValidatornew_companieshouseregistrationnumber" style="visibility:hidden;">*</span>
+								</div>
+							</div>
+							<div class="control">
+								<input name="mgmt-male" type="text" inputmode="numeric" maxlength="2" id="mgmt-male" class="text form-control " onchange="setIsDirty(this.id);" onkeypress="javascript:return LengthError(this, event);">
+							</div>
+						</li>
+						<li>
+							<div class="info">
+								<label for="mgmt-nb" id="mgmt-nb_label" class="field-label">Non-binary</label>
+								<div class="validators">
+									<span id="MaximumLengthValidatornew_companieshouseregistrationnumber" style="visibility:hidden;">*</span>
+								</div>
+							</div>
+							<div class="control">
+								<input name="mgmt-nb" type="text" inputmode="numeric" maxlength="2" id="mgmt-nb" class="text form-control " onchange="setIsDirty(this.id);" onkeypress="javascript:return LengthError(this, event);">
+							</div>
+						</li>
+						<li>
+							<div class="info">
+								<label for="mgmt-pnts" id="mgmt-pnts_label" class="field-label">Prefer not to say</label>
+								<div class="validators">
+									<span id="MaximumLengthValidatornew_companieshouseregistrationnumber" style="visibility:hidden;">*</span>
+								</div>
+							</div>
+							<div class="control">
+								<input name="mgmt-pnts" type="text" inputmode="numeric" maxlength="2" id="mgmt-pnts" class="text form-control " onchange="setIsDirty(this.id);" onkeypress="javascript:return LengthError(this, event);">
+							</div>
 						</li>
 					</ul>
 				</fieldset>
@@ -459,7 +548,7 @@
 				</fieldset>
 				    <fieldset>
 					<legend>
-						<h2>Disbility</h2>
+						<h2>Disability</h2>
 					</legend>
 					<div class="info">
 						<label for="se_disabledpersonledbusiness" id="se_disabledpersonledbusiness_label" class="field-label">Is your business a disabled person led business?</label>
