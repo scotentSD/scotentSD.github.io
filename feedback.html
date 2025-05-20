@@ -73,7 +73,7 @@
           throw new Error(error.message || 'Error creating sticky note');
         }
 
-        document.getElementById('result').textContent = 'Feedback posted to Miro successfully!';
+        document.getElementById('result').textContent = 'Feedback posted to Miro successfully! Feel free to add more :-)';
         document.getElementById('feedbackForm').reset();
       } catch (err) {
         document.getElementById('result').textContent = `Error: ${err.message}`;
