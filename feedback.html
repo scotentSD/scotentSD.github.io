@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Feedback Form to Miro</title>
+</head>
+<body>
+  <h2>Lead Gen Feedback</h2>
+  <form id="feedbackForm">
+    <label for="feedback">Feedback:</label><br>
+    <textarea id="feedback" name="feedback" rows="6" cols="50" required></textarea><br><br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <p id="result"></p>
+
+  <script>
+    const accessToken = 'eyJtaXJvLm9yaWdpbiI6ImV1MDEifQ_6qkNdEw3G3U0Ub-u3fGTJVrtNVM'; // Replace with your token
+    const boardId = 'uXjVIzVDpvA='; // Replace with your Miro board ID
+
+    document.getElementById('feedbackForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const feedbackText = document.getElementById('feedback').value;
+
+      try {
+        const response = await fetch(`https://api.miro.com/v2/boards/${boardId}/sticky_notes`, {
+          method: 'POST',
+          headers: {
+            'Authorization': `Bearer ${accessToken}`,
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            data: {
+              content: feedbackText,
+              shape: 'square'
+            },
+            style: {
+              fillColor: 'light_yellow'
+            },
+            position: {
+              origin: 'center',
+              x: 0,
+              y: 0
+            }
+          })
+        });
+
+        if (!response.ok) {
+          const error = await response.json();
+          throw new Error(error.message || 'Error creating sticky note');
+        }
+
+        document.getElementById('result').textContent = 'Feedback posted to Miro successfully!';
+        document.getElementById('feedbackForm').reset();
+      } catch (err) {
+        document.getElementById('result').textContent = `Error: ${err.message}`;
+      }
+    });
+  </script>
+</body>
+</html>
