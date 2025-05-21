@@ -9,7 +9,7 @@
       background-color: #001f3f; /* Navy Blue */
       color: white;
       padding: 20px;
-      text-align: center;
+      text-align: left;
       font-size: 24px;
     }
 
@@ -17,6 +17,11 @@
       font-size: 18px;
       width: 100%;
       max-width: 600px;
+    }
+
+    label {
+      font-weight: bold;
+      font-size: 1.4em;
     }
 
     button {
@@ -35,11 +40,17 @@
   </style>
   
 </head>
+
+
 <body>
-  <h2>Lead Gen App Demo Feedback</h2>
+
+  <header>  
+      <h2>Lead Gen App Demo Feedback</h2>
+  </header>
+  <br />
   <form id="feedbackForm">
     <label for="feedback">Feedback:</label><br>
-    <textarea id="feedback" name="feedback" rows="6" cols="50" required></textarea><br><br>
+    <textarea id="feedback" name="feedback" rows="6" cols="80" required></textarea><br><br>
     <button type="submit">Submit</button>
 
  
@@ -47,6 +58,9 @@
   </form>
 
   <p id="result"></p>
+
+
+
 
   <script>
     const accessToken = 'eyJtaXJvLm9yaWdpbiI6ImV1MDEifQ_6qkNdEw3G3U0Ub-u3fGTJVrtNVM'; // Replace with your token
