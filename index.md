@@ -16,6 +16,7 @@ layout: default
 </ul>
 <h2>Learning, resources and techniques</h2>
 <ul>
+      <li><a href="https://scotentsd.github.io/agile/">Agile Community of Practice</a> </li>
       <li><a href="{{ site.baseurl}}/colours.htm">SE brand colour contrast checker</a> </li>
       <li><a href="{{ site.baseurl}}/a11y/">Accessibility</a> </li>
       <li><a href="{{ site.baseurl}}/feedback/">Customer feedback</a> </li>
