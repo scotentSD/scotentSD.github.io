@@ -1,0 +1,143 @@
+/*******************************************************************************
+changes to the Jekyll theme slate 
+*******************************************************************************/
+
+body {
+  font-size: 18px; // SK was 16px
+}
+
+#main_content_wrap {
+  background: #fdfdfd ; // was #f2f2f2 but if it's lighter, it's easier to read, especially when the text is a link - only AA for accessibility - now AAA
+}
+form {
+  background: #fdfdfd ; // was #f2f2f2 and only AA for accessibility - now AAA 
+}
+
+a {
+  color: #0258a6; // was #00427f; still gets AAA rating
+  font-weight: 500; // was normal 400 but help for readability of the text link
+  text-decoration: underline; // added as the main theme is taking this away and it's not accessible
+}
+
+footer a:hover, footer a:focus {
+  color: #ffffff ; // was #2980b9 intially and not contrasted enough - SK
+  font-weight: 600 ; // wasn't there - to add to the difference of colour
+}
+
+code {
+  background-color: #ddd;
+  box-shadow: none;
+}
+
+/*******************************************************************************
+Full-Width Styles
+*******************************************************************************/
+
+nav {
+  float: right;
+}
+
+nav a {
+  color: #F2F2F2;
+  padding: 0 10px;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: underline; 
+  color: #ffffff ;
+  font-weight: 700;
+}
+
+.breadcrumbs {
+  padding-bottom: 1em;
+}
+
+.breadcrumbs a {
+  text-decoration: underline;
+}
+
+/*******************************************************************************
+Small Device Styles
+*******************************************************************************/
+@media screen and (max-width: 480px) {
+  #project_title {
+  font-size: 26px; // was 32px; avoid wrapping on small screen - still quite big
+  }
+
+  #project_tagline {
+  font-size: 22px; // was 24px; like on big screens, changed as we changed the title, to keep the contrast in size
+  }
+
+  nav a {
+  font-size: 22px; //  was 24px; like on big screens, changed as we changed the title, to keep the contrast in size
+  }
+  
+  #main_content {
+  line-height: 1.5; // this wasn't here, it's to leave more room between lines, especially when there are links to tap
+  }
+  
+  #project_title {
+  font-size: 26px; // was 28px;
+  }
+}
+/*******************************************************************************
+Helpers
+*******************************************************************************/
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.date {
+  font-style: italic;
+  color: #666;
+  padding-top: 10px;
+}
+
+/* Specify the color of the selection */
+::-moz-selection {
+  color: #000;
+  background: #deeefb;
+}
+::selection {
+  color: #000;
+  background: #deeefb;
+}
+
+iframe, video {
+  @media only screen and (max-width: 560px) {
+  width: 100%;
+  }
+}
+
+/* add special colours to reflect Lou Downe Good services book */
+// orange text against dark background
+.lou {
+    background-color: #1a1a1a;
+    color: #fb5b5f;    
+}
+// yellow text against dark background
+.lou-y {
+    background-color: #1a1a1a;
+    color: #fdd73d;    
+}
+// green text against dark background
+.lou-g {
+    background-color: #1a1a1a;
+    color: #01b299;    
+}
+// give a bit of padding
+span.lou, span.lou-y, span.lou-g {
+    padding: 3px 5px;
+    margin: 2px auto;
+}
+
+/* change the format of the blog post titles */
+.blog-post-title {
+font-size: 1.5em;
+font-weight: 600;
+}
