@@ -1,0 +1,1212 @@
+<html lang="en">
+
+<head>
+    <title>Your commitment to net zero</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel='stylesheet' href='https://account.scottish-enterprise.com/bootstrap.min.css?1730719127000'>
+    <link rel='stylesheet'
+        href='https://content.powerapps.com/resource/powerappsportal/dist/font-awesome.bundle-3d8a58a48f.css'>
+    <link rel='stylesheet'
+        href='https://content.powerapps.com/resource/powerappsportal/dist/preform.bundle-8a0534540c.css'>
+    <link rel='stylesheet' href='https://account.scottish-enterprise.com/theme.css?1730719129000'>
+    <link rel='stylesheet' href='https://account.scottish-enterprise.com/SEThemeV2.css?1730719129000'>
+    <link rel='stylesheet' href='https://account.scottish-enterprise.com/portalbasictheme.css?1730719128000'>
+    <link rel='stylesheet' href='https://use.typekit.net/edy3lpy.css'>
+    <link rel='stylesheet' href='https://www.google.com/s2/favicons?domain=https://www.scottish-enterprise.com/'>
+    <link href="https://content.powerapps.com/resource/powerappsportal/dist/pcf-style.bundle-373a0f4982.css"
+        onerror="javascript: var target = event.target; var link = document.createElement('link'); link.crossOrigin = target.crossOrigin; link.href = 'https://content.powerapps.com/resource/powerappsportal/dist/pcf-style.bundle-373a0f4982.css'; link.rel = 'stylesheet'; target.insertAdjacentElement('afterend',link);"
+        rel="stylesheet">
+    <style>
+        .contact-us-form legend h2 {
+            margin-bottom: 1rem !important;
+        }
+    </style>
+    <script>
+	document.addEventListener('DOMContentLoaded', () => {
+		const InsertButton = document.getElementById('InsertButton');
+		const queryString = window.location.search;
+		const target = 'https:\/\/scotentsd.github.io\/homepage-ctas.htm' + queryString + '&r2=hide';
+		InsertButton.setAttribute('onclick', 'javascript: window\.location\.href = \'' + target + '\'');
+	});
+</script>
+</head>
+
+<body>
+    <div id="offlineNotificationBar" style="display: none;">
+        <img alt=" " id="web"
+            onerror="javascript: var target = event.target; var img = document.createElement('img'); img.src = '/css/images/web.png'; img.alt = 'web'; img.id = 'web' ; target.insertAdjacentElement('afterend',img); target.remove();"
+            src="https://content.powerapps.com/resource/powerappsportal/img/web.png">
+        <div id="message">You’re offline. This is a read only version of the page.</div>
+
+        <a href="#" id="linkClose">Close</a>
+    </div>
+
+    <div class="navbar navbar-inverse navbar-static-top" role="banner">
+        <div class="skip-to-content"><a href="#mainContent">Skip to main content</a></div>
+        <div class="container">
+            <div class="col-md-1"></div>
+            <div class="navbar-header">
+                <div class="visible-sm-block visible-md-block visible-lg-block visible-xs-block navbar-brand">
+                    <div class="xrm-editable-html xrm-attribute" data-languagecontext="English (United Kingdom)">
+                        <div class="xrm-attribute-value">
+                            <div><a href="#"
+                                    class="brand-logo"><img id="logo"
+                                        src="https://account.scottish-enterprise.com/se-main-logo.png"
+                                        name="se-main-logo.png" alt="Home page"
+                                        style="background-color: transparent;"><span class="sr-only">Link to the home
+                                        page</span></a></div>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" onclick="setHeight();">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse" style="max-height: 819px;">
+
+                <nav aria-label="Main Navigation" class="navbar-right menu-bar " data-weblinks-maxdepth="2">
+                    <ul class="nav navbar-nav weblinks">
+
+                        <li class="weblink ">
+                            <a href="#">
+                                Home
+                            </a>
+
+                        </li>
+
+                        <li class="divider-vertical" aria-hidden="true"></li>
+
+                        <li>
+                            <a href="#">
+                                Sign in
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Beta banner -->
+    <div id="beta-banner" class="hide">
+        <div class="container">
+            <div class="col-md-1"></div>
+            <div class="beta-banner">
+                <div class="beta-tag">beta</div>
+                <p>This is a new beta site, you can give us feedback <a href="#" class="cta-link">here.</a>
+                </p>
+                <button id="close-beta-banner" class="icon__close" href="">
+                    <span class="sr-only">Close beta banner</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" width="25" height="25">
+                        <path
+                            d="M20.707 3.293c-.39-.39-1.024-.39-1.414 0L12 10.586 4.707 3.293c-.39-.39-1.024-.39-1.414 0-.39.39-.39 1.024 0 1.414L10.586 12l-7.293 7.293c-.39.39-.39 1.024 0 1.414.195.195.45.293.707.293s.512-.098.707-.293L12 13.414l7.293 7.293c.195.195.45.293.707.293s.512-.098.707-.293c.39-.39.39-1.024 0-1.414L13.414 12l7.293-7.293c.39-.39.39-1.024 0-1.414z">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const betaBanner = document.querySelector("#beta-banner");
+        const iconCloseBetaBanner = document.querySelector("#close-beta-banner");
+        setCookie = (cName, cValue, expDays) => {
+            let date = new Date();
+            date.setTime(date.getTime() + (expDays * 24 * 60 * 60 * 1000));
+            const expires = "expires=" + date.toUTCString();
+            document.cookie = cName + "=" + cValue + "; " + expires + "; path=/";
+        }
+        getCookie = (cName) => {
+            const name = cName + "=";
+            const cDecoded = decodeURIComponent(document.cookie);
+            const cArr = cDecoded.split("; ");
+            let value;
+            cArr.forEach(val => {
+                if (val.indexOf(name) === 0) value = val.substring(name.length);
+            })
+            return value;
+        }
+        iconCloseBetaBanner.addEventListener("click", () => {
+            betaBanner.classList.add("hide");
+            setCookie("SE-Beta-banner", true, 1);
+        })
+        displayBetaBanner = () => {
+            if (getCookie("SE-Beta-banner")) {
+                betaBanner.classList.add("hide");
+            } else {
+                betaBanner.classList.remove("hide");
+            }
+        }
+        window.addEventListener("load", displayBetaBanner);
+    </script>
+
+    <script type="text/javascript">
+        window.onload = function () {
+            if (window.navigator.appName == "Microsoft Internet Explorer" || window.navigator.userAgent.indexOf("Trident") > 0) {
+                var searchElement = document.getElementById("search");
+                if (searchElement != null) searchElement.setAttribute("href", "");
+            }
+        };
+
+        function setHeight() {
+            var windowHeight = window.innerHeight - 140;
+            var navbar = document.getElementById("navbar");
+            if (navbar) {
+                navbar.style.maxHeight = windowHeight + "px";
+            }
+        }
+        window.addEventListener('resize', function (event) {
+            setHeight();
+        });
+    </script>
+
+    <!-- add anti-forgery token-->
+    <div id="antiforgerytoken" data-url="/_layout/tokenhtml"></div>
+
+    <!-- Client Telemetry init if telemetry enabled-->
+    <script
+        onerror="javascript: var target = event.target; var script = document.createElement('script'); script.crossOrigin = target.crossOrigin; script.src = '/dist/client-telemetry.bundle-f9f45b65a6.js'; script.type = 'text/javascript'; target.insertAdjacentElement('afterend',script);"
+        src="https://content.powerapps.com/resource/powerappsportal/dist/client-telemetry.bundle-f9f45b65a6.js"
+        type="text/javascript"></script>
+
+    <!-- Client Telemetry Wrapper init -->
+    <script
+        onerror="javascript: var target = event.target; var script = document.createElement('script'); script.crossOrigin = target.crossOrigin; script.src = '/dist/client-telemetry-wrapper.bundle-633e70f51b.js'; script.type = 'text/javascript'; target.insertAdjacentElement('afterend',script);"
+        src="https://content.powerapps.com/resource/powerappsportal/dist/client-telemetry-wrapper.bundle-633e70f51b.js"
+        type="text/javascript"></script>
+
+    <script>
+        window.clientLogWrapper = new ClientLogWrapper();
+    </script>
+    <script
+        onerror="javascript: var target = event.target; var script = document.createElement('script'); script.crossOrigin = target.crossOrigin; script.src = '/dist/preform.moment_2_29_4.bundle-4fdd3f639b.js'; script.type = 'text/javascript'; target.insertAdjacentElement('afterend',script);"
+        src="https://content.powerapps.com/resource/powerappsportal/dist/preform.moment_2_29_4.bundle-4fdd3f639b.js"
+        type="text/javascript"></script>
+
+    <script
+        onerror="javascript: var target = event.target; var script = document.createElement('script'); script.crossOrigin = target.crossOrigin; script.src = '/dist/pcf-dependency.bundle-805a1661b7.js'; script.type = 'text/javascript'; target.insertAdjacentElement('afterend',script);"
+        src="https://content.powerapps.com/resource/powerappsportal/dist/pcf-dependency.bundle-805a1661b7.js"
+        type="text/javascript"></script>
+
+    <script
+        onerror="javascript: var target = event.target; var script = document.createElement('script'); script.crossOrigin = target.crossOrigin; script.src = '/dist/pcf.bundle-582a4e04bd.js'; script.type = 'text/javascript'; target.insertAdjacentElement('afterend',script);"
+        src="https://content.powerapps.com/resource/powerappsportal/dist/pcf.bundle-582a4e04bd.js"
+        type="text/javascript"></script>
+
+    <script
+        onerror="javascript: var target = event.target; var script = document.createElement('script'); script.crossOrigin = target.crossOrigin; script.src = '/dist/pcf-extended.bundle-b0e01b5622.js'; script.type = 'text/javascript'; target.insertAdjacentElement('afterend',script);"
+        src="https://content.powerapps.com/resource/powerappsportal/dist/pcf-extended.bundle-b0e01b5622.js"
+        type="text/javascript"></script>
+
+    <form method="post" action="/contact-us/" onsubmit="javascript:return WebForm_OnSubmit();" id="liquid_form">
+        <div class="aspNetHidden">
+            <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+            <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+            <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE"
+                value="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">
+        </div>
+
+        <script type="text/javascript">
+            //<![CDATA[
+            var theForm = document.forms['liquid_form'];
+            if (!theForm) {
+                theForm = document.liquid_form;
+            }
+
+            function __doPostBack(eventTarget, eventArgument) {
+                if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+                    theForm.__EVENTTARGET.value = eventTarget;
+                    theForm.__EVENTARGUMENT.value = eventArgument;
+                    theForm.submit();
+                }
+            }
+            //]]>
+        </script>
+
+        <script
+            src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZIQlIeOr42EWJBlL6nYhb0CVa9jpAnRFeTjqQVUxxE35Z55c0CJTfPZRlz4skL6KcA2&amp;t=638628224627334853"
+            type="text/javascript"></script>
+
+        <script
+            src="/ScriptResource.axd?d=nv7asgRUU0tRmHNR2D6t1F1ewPZ35ZXO_9SKtN6cf8C5UEUPxUJkVSAlq5qoa22VDxKyLJtN0o0zj5XgOe_mvmwxAUeMDDCw2QQfZlz2uoDs6QOZIS_fv_09ffFIp7rfPeY1dr3DDJDfdxQb_ZTvkg2&amp;t=71590056"
+            type="text/javascript"></script>
+        <script
+            src="/ScriptResource.axd?d=NJmAwtEo3Ipnlaxl6CMhvgNRlC7SNxI-RXc3-B5hwkV5-GT9fzACowra_r5_8hDkZV_Wu552gatVd4tg7FsnrqZsgrECnV0sj7b_JN7rcji0yFsPGQrXU_l1Lze81nz5yubpEzi1_Q2pxFL9xrBM_ZLzPdL9oHo3dfdi7deGpJc1&amp;t=b990ecd"
+            type="text/javascript"></script>
+        <script
+            src="/ScriptResource.axd?d=dwY9oWetJoJoVpgL6Zq8OG6f6cCTFofypjrFk0zVwjcVsVKv83qZc4SPv5uJ1XUt772CmBYngxlzqfK9J9Cac1ydBvSomSkokKqmKLMfbKcyNI8XzECygG_Up2rwgOc8E13_TaoIifKuni82WJmtc15itwUCCF3SnFlnXk_XWhQ1&amp;t=b990ecd"
+            type="text/javascript"></script>
+        <script src="../js/jquery.blockUI.js" type="text/javascript"></script>
+        <script src="/xrm-adx/js/webform.js" type="text/javascript"></script>
+        <script src="/xrm-adx/js/radcaptcha.js" type="text/javascript"></script>
+        <script src="/xrm-adx/js/crmentityformview.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            //<![CDATA[
+            function WebForm_OnSubmit() {
+                if (typeof (ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+                return true;
+            }
+            //]]>
+        </script>
+
+        <div class="aspNetHidden">
+
+            <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="1128FCF4">
+            <input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="">
+            <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION"
+                value="Z9ehragpWbflcU81qmq0YWVU5X3ORe67iCLQ6Hldzaq/72lQ9/GpnZ6QiDV4Ysl/K/6KV42tpUzSa3HturoyyAL2qL0KwoE7M0rBwxqRmHeV5IRSAm3MeYlREJ/Cqk2EXQk5ObCUwxMU42NMNG+HYFXcHS2VRw9dwUvCgdPeNmuESs7SZ9eUwV7XmZ6225fUxb7c7nvp6WpKYXMT2L49Mmu6rwErh9KtW+P02nZ8tOf6B29Slda04KkJdK8M6J0NUNfFmFEtkbRURgZKSKAm43Wt6nWfGRd1I8u+YeoPp61X0cuxt7S8f3V8uZOzPFHi4I7tiRXStZ9tH9h6KV/XdGxgxxbrzSIx6FFuVq3T6r7Lq1DfMQTNHYWdELlg2vdKAnMCyzEpv74Gl6CM2F9yPMjakZcTGTydt33b/sCFzxdrBK/fqcJGumeEtJvPgwqsDZsd2fSSgphOX489MowX67gqncdUB7UINScnhl3fdlRINqhplGSj1yBqkUYsM27i9VtHZGnz9F78axQgehdrmWzXMzCn1yoEuwnSXkkXkhg=">
+        </div>
+        <script type="text/javascript">
+            //<![CDATA[
+            Sys.WebForms.PageRequestManager._initialize('ctl00$ContentContainer$ctl01', 'liquid_form', [], [], [], 90, 'ctl00');
+            //]]>
+        </script>
+
+        <script type="text/javascript">
+            function entityFormClientValidate() {
+                // Custom client side validation. Method is called by the submit button's onclick event.
+                // Must return true or false. Returning false will prevent the form from submitting.
+                return true;
+            }
+        </script>
+        <!-- Default studio template. Please do not modify -->
+
+        <div id="mainContent" class="wrapper-body" role="main">
+
+            <div class="page-copy">
+                <div class="xrm-editable-html xrm-attribute">
+                    <div class="xrm-attribute-value">
+                        <section class="panel">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-1"></div>
+                                    <div class="col-md-10">
+                                        <h1>Your commitment to net zero</h1>
+                                        <p>Scottish Enterprise is committed to reaching net zero by 2040. We expect the businesses we work with to have similar ambitions.</p>
+                                        <p>If you are unable to commit to this goal, Scottish Enterprise may not be able to offer you certain services at this time.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="container contact-us">
+                            <div class="row">
+                                <div class="col-md-1"></div>
+                                <div class="col-md-10">
+
+                                    <ul class="breadcrumb">
+
+                                        <li>
+                                            <a href="#"
+                                                title="Home">Home</a>
+                                        </li>
+
+                                        <li class="active">Net zero</li>
+                                    </ul>
+                                    <div class="contact-us-form">
+                                        <div id="EntityFormControl_1a571c933772ed1195616045bd905f2d">
+                                            <span>
+                                                <script type="text/javascript">
+                                                    var head = document.getElementsByTagName('head')[0];
+                                                    var link = document.createElement('link');
+                                                    link.rel = 'stylesheet';
+                                                    link.type = 'text/css';
+                                                    link.href = 'https://webservices.data-8.co.uk/content/predictiveaddress.css';
+                                                    link.media = 'all';
+                                                    head.appendChild(link);
+                                                    var data8JsScript = document.createElement('script');
+                                                    data8JsScript.onload = function () {
+                                                        var txt = document.getElementById('se_name');
+                                                        new data8.predictiveaddressui(txt, {
+                                                            // Change this to your own API Key
+                                                            ajaxKey: 'VDVE-XI8Q-V35J-MD3I',
+                                                            fields: [{
+                                                                element: 'se_name',
+                                                                field: 'line1'
+                                                            },
+                                                            {
+                                                                element: 'se_addressline1',
+                                                                field: 'line2'
+                                                            },
+                                                            {
+                                                                element: 'se_addressline2',
+                                                                field: 'line3'
+                                                            },
+                                                            {
+                                                                element: 'se_addressline3',
+                                                                field: 'line4'
+                                                            },
+                                                            {
+                                                                element: 'se_town',
+                                                                field: 'town'
+                                                            },
+                                                            {
+                                                                element: 'se_postcode',
+                                                                field: 'postcode'
+                                                            }
+                                                            ]
+                                                        });
+                                                        // Sets textarea height
+                                                        var feedbackArea = document.getElementById('se_feedbackmessage');
+                                                        feedbackArea.setAttribute("rows", 5);
+                                                        //Adds text below t&c's checkbox
+                                                        var tcEl = document.querySelector('[aria-label="Terms_Conditions"]');
+                                                        var div = document.createElement("div");
+                                                        div.setAttribute("class", "contact-us-terms");
+                                                        div.innerHTML = "<p>You must review and accept the terms of the privacy policy to continue</p> <p>The personal details and information provided will be used to answer your enquiry and keep you updated on its progress.</p> <p>They will be stored on our system which is shared with other public sector bodies.</p> <p>By ticking the box and clicking submit you confirm that you have read and agreed to the terms of our <a href='https://www.scottish-enterprise.com/help/privacy-notice' >privacy notice</>.</p>";
+                                                        tcEl.appendChild(div);
+                                                    };
+                                                    data8JsScript.src = 'https://webservices.data-8.co.uk/javascript/predictiveaddress.js';
+                                                    document.head.appendChild(data8JsScript);
+                                                    $(document).ready(function () {
+                                                        $("#InsertButton").button().click(function (event) {
+                                                            if ($('#se_accepttermsandconditions').is(":checked") === false) {
+                                                                $('<a href="#se_accepttermsandconditions" onclick="javascript:scrollToAndFocus("se_accepttermsandconditions"); return false;">Terms & conditions is a required field.</a>').insertAfter('.validation-summary ul li:last');
+                                                                removeRoleAttribute();
+                                                            }
+                                                        });
+                                                        //Removes role='presentation' from <ul> in the error summary box
+                                                        function removeRoleAttribute() {
+                                                            var el = document.querySelector('ul[role="presentation"]');
+                                                            if (el) {
+                                                                el.removeAttribute('role');
+                                                            } else {
+                                                                console.log("No <ul> element with role='presentation' found.");
+                                                            }
+                                                        }
+
+                                                        function validate() {
+                                                            // add business req on terms and conditions
+                                                            if ($('#se_accepttermsandconditions').is(":checked") === false) {
+                                                                addValidator("se_accepttermsandconditions", "ctl00$ContentContainer$EntityFormControl_1a571c933772ed1195616045bd905f2d$EntityFormControl_1a571c933772ed1195616045bd905f2d_EntityFormView$se_accepttermsandconditions");
+                                                                $("#EntityFormControl_1a571c933772ed1195616045bd905f2d_EntityFormView_EntityLayoutConfig").prepend('<div tabindex="0" class="validation-summary alert alert-error alert-danger alert-block" id="ValidationSummaryEntityFormControl_1a571c933772ed1195616045bd905f2d_EntityFormView" role="alert"><h4 class="validation-header"><span class="fa fa-info-circle" role="presentation"></span> </h4><p>T&C Required Field.</p></div>');
+                                                                $('html, body').animate({
+                                                                    scrollTop: $("#ValidationSummaryEntityFormControl_1a571c933772ed1195616045bd905f2d_EntityFormView").offset().top
+                                                                }, 500);
+                                                            } else {
+                                                                removeValidator("se_accepttermsandconditions");
+                                                                $("#ValidationSummaryEntityFormControl_1a571c933772ed1195616045bd905f2d_EntityFormView").remove();
+                                                            }
+                                                        }
+                                                        //validation
+                                                        function addValidator(fieldName, fieldLabel, errormessage, donotaddrequired, evaluationfunction) {
+                                                            if (typeof (Page_Validators) == 'undefined') return;
+                                                            var newValidatorId = "RequiredFieldValidator" + fieldName;
+                                                            if (Page_Validators.filter(function (validator) {
+                                                                return validator.id === newValidatorId
+                                                            }).length > 0) {
+                                                                // validator already exists
+                                                                return;
+                                                            }
+                                                            // Create new validator
+                                                            if (!donotaddrequired) {
+                                                                $("#" + fieldLabel).parent().addClass("required");
+                                                            }
+                                                            var newValidator = document.createElement('span');
+                                                            newValidator.style.display = "none";
+                                                            newValidator.id = newValidatorId;
+                                                            newValidator.controltovalidate = fieldName;
+                                                            newValidator.errormessage = errormessage || "<a href='#" + fieldName + "_label'>" + fieldLabel + " is a mandatory field.</a>";
+                                                            newValidator.validationGroup = "";
+                                                            newValidator.initialvalue = "";
+                                                            newValidator.evaluationfunction = evaluationfunction || function () {
+                                                                var value = $("#" + fieldName).val();
+                                                                if (value == null || value == "") {
+                                                                    return false;
+                                                                } else {
+                                                                    return true;
+                                                                }
+                                                            };
+                                                            // Add the new validator to the page validators array:
+                                                            Page_Validators.push(newValidator);
+                                                            // Wire-up the click event handler of the validation summary link
+                                                            $("a[href='#" + fieldLabel + "']").on("click", function () {
+                                                                scrollToAndFocus(fieldLabel, fieldName);
+                                                            });
+                                                        }
+                                                        //eg. removeValidator("se_accepttermsandconditions")
+                                                        function removeValidator(fieldName) {
+                                                            $.each(Page_Validators, function (index, validator) {
+                                                                if (validator.id == "RequiredFieldValidator" + fieldName) {
+                                                                    Page_Validators.splice(index, 1);
+                                                                }
+                                                            });
+                                                            $("#" + fieldName + "_label").parent().removeClass("required");
+                                                        }
+                                                    });
+                                                    // Function to modify the autocomplete attribute
+                                                    function modifyAutocompleteAttribute() {
+                                                        var seNameInput = document.getElementById("se_name");
+                                                        if (seNameInput && seNameInput.getAttribute('autocomplete') === 'nope') {
+                                                            seNameInput.removeAttribute('autocomplete');
+                                                            seNameInput.setAttribute('autocomplete', 'street-address');
+                                                        }
+                                                    }
+                                                    // Add a timeout for 1 seconds after the page loads
+                                                    setTimeout(function () {
+                                                        modifyAutocompleteAttribute();
+                                                    }, 1000);
+                                                </script>
+                                            </span>
+                                            <div id="EntityFormPanel" class="crmEntityFormView"
+                                                onkeypress="javascript:return WebForm_FireDefaultButton(event, 'InsertButton')"
+                                                role="form" aria-label="Basic Form">
+                                                <div id="EntityFormControl_1a571c933772ed1195616045bd905f2d_EntityFormView"
+                                                    class="entity-form">
+                                                    <input type="hidden"
+                                                        name="ctl00$ContentContainer$EntityFormControl_1a571c933772ed1195616045bd905f2d$EntityFormControl_1a571c933772ed1195616045bd905f2d_EntityFormView$EntityFormControl_1a571c933772ed1195616045bd905f2d_EntityFormView_EntityName"
+                                                        id="EntityFormControl_1a571c933772ed1195616045bd905f2d_EntityFormView_EntityName"
+                                                        value="se_portalenquiry"><input type="hidden"
+                                                        name="ctl00$ContentContainer$EntityFormControl_1a571c933772ed1195616045bd905f2d$EntityFormControl_1a571c933772ed1195616045bd905f2d_EntityFormView$EntityFormControl_1a571c933772ed1195616045bd905f2d_EntityFormView_EntityID"
+                                                        id="EntityFormControl_1a571c933772ed1195616045bd905f2d_EntityFormView_EntityID"><input
+                                                        type="hidden"
+                                                        name="ctl00$ContentContainer$EntityFormControl_1a571c933772ed1195616045bd905f2d$EntityFormControl_1a571c933772ed1195616045bd905f2d_EntityFormView$EntityFormControl_1a571c933772ed1195616045bd905f2d_EntityFormView_EntityState"
+                                                        id="EntityFormControl_1a571c933772ed1195616045bd905f2d_EntityFormView_EntityState"><input
+                                                        type="hidden"
+                                                        name="ctl00$ContentContainer$EntityFormControl_1a571c933772ed1195616045bd905f2d$EntityFormControl_1a571c933772ed1195616045bd905f2d_EntityFormView$EntityFormControl_1a571c933772ed1195616045bd905f2d_EntityFormView_EntityStatus"
+                                                        id="EntityFormControl_1a571c933772ed1195616045bd905f2d_EntityFormView_EntityStatus"><span
+                                                        id="EntityFormControl_1a571c933772ed1195616045bd905f2d_EntityFormView_EntityLayoutConfig"
+                                                        data-form-layout="{&quot;EntityName&quot;:&quot;se_portalenquiry&quot;,&quot;Id&quot;:&quot;00000000-0000-0000-0000-000000000000&quot;,&quot;SubmitActionLink&quot;:{&quot;Modal&quot;:{},&quot;Type&quot;:0,&quot;Enabled&quot;:false,&quot;ShowModal&quot;:0,&quot;FilterCriteriaId&quot;:&quot;d03ac0bb-7766-45e7-9862-604bff83083e&quot;},&quot;PreviousActionLink&quot;:{&quot;Type&quot;:0,&quot;Enabled&quot;:false,&quot;ShowModal&quot;:0,&quot;FilterCriteriaId&quot;:&quot;bd957c79-42b2-40d5-962e-f360b7cc822a&quot;},&quot;NextActionLink&quot;:{&quot;Type&quot;:0,&quot;Enabled&quot;:false,&quot;ShowModal&quot;:0,&quot;FilterCriteriaId&quot;:&quot;2c2d8d5b-4804-424f-9880-d460e7044b72&quot;},&quot;CreateRelatedRecordActionLink&quot;:{&quot;Modal&quot;:{},&quot;Type&quot;:0,&quot;Enabled&quot;:false,&quot;ShowModal&quot;:0,&quot;FilterCriteriaId&quot;:&quot;223a58d0-f594-400e-8cff-0fe1a69c7a2f&quot;},&quot;EnableEntityPermissions&quot;:false,&quot;LanguageCode&quot;:0,&quot;EnableActions&quot;:false,&quot;ShowActionButtonContainer&quot;:0,&quot;AutoGenerateSteps&quot;:false}"></span>
+                                                    <div id="ValidationSummaryEntityFormControl_1a571c933772ed1195616045bd905f2d_EntityFormView"
+                                                        class="validation-summary alert alert-error alert-danger alert-block"
+                                                        role="alert" style="display:none;">
+
+                                                    </div>
+                                                    <div class="tab clearfix">
+                                                        <div class="tab-column" style="width:100%;">
+                                                            <div>
+                                                                <fieldset>
+                                                                    <legend>
+                                                                        <h2>Your plan for net zero</h2>
+                                                                    </legend>
+                                                                    <p class="help-text">Does your business have a
+                                                                        credible plan in place to reduce operational
+                                                                        greenhouse gas emissions
+                                                                        to net zero buy 2045 at the latest?</p>
+                                                                    <ul style="list-style-type: none;">
+                                                                        <li>
+                                                                            <input type="radio" name="nz" id="nz1">
+                                                                            <label for="nz1">We have a net zero plan in
+                                                                                place</label>
+                                                                        </li>
+                                                                        <li>
+                                                                            <input type="radio" name="nz" id="nz2">
+                                                                            <label for="nz2">We are developing or will
+                                                                                develop a plan</label>
+                                                                        </li>
+                                                                        <li>
+                                                                            <input type="radio" name="nz" id="nz3">
+                                                                            <label for="nz3">We do not intend to develop
+                                                                                a net zero plan</label>
+                                                                        </li>
+                                                                    </ul>
+                                                                </fieldset>
+
+                                                                <div
+                                                                    id="EntityFormControl_92a656ac85f5ee11a1fe000d3a2d56a2">
+                                                                    <div id="EntityFormPanel2" class="crmEntityFormView"
+                                                                        onkeypress="javascript:return WebForm_FireDefaultButton(event, 'InsertButton')"
+                                                                        role="form" aria-label="Basic Form">
+                                                                        <fieldset>
+                                                                            <legend>
+                                                                               <h3>Upload your net zero plan</h3>
+                                                                            </legend>
+                                                                            <p>A credible net zero plan is one that:</p>
+                                                                            <ul>
+                                                                                <li>At a minimum, has calculated a baseline of scope 1, scope 2 and easily calculable scope 3 emissions</li>
+<li>Accurately and transparently sets out an action plan to reduce those emissions to net zero by 2045 at the latest and includes short and medium term interim targets</li>
+<li>Is aligned to one of the main carbon accounting methodologies. (e.g. Greenhouse Gas Protocol; Science Based Targets Initiative; ISO 14064; PAS2060:2014)</li>
+<li>Is published openly and is updated on at least an annual basis</li>
+<li>If a company has made a pledge under the UN Race to Zero either directly or through one of the partner programmes such as the SME Climate Hub, we would by default accept this as a demonstration of them having a credible net zero plan in place</li>
+                                                                            </ul>
+                                                                        <div id="EntityFormControl_92a656ac85f5ee11a1fe000d3a2d56a2_EntityFormView"
+                                                                            class="entity-form">
+                                                                            <input type="hidden"
+                                                                                name="ctl00$ContentContainer$EntityFormControl_92a656ac85f5ee11a1fe000d3a2d56a2$EntityFormControl_92a656ac85f5ee11a1fe000d3a2d56a2_EntityFormView$EntityFormControl_92a656ac85f5ee11a1fe000d3a2d56a2_EntityFormView_EntityName"
+                                                                                id="EntityFormControl_92a656ac85f5ee11a1fe000d3a2d56a2_EntityFormView_EntityName"
+                                                                                value="se_portaldocuments"><input
+                                                                                type="hidden"
+                                                                                name="ctl00$ContentContainer$EntityFormControl_92a656ac85f5ee11a1fe000d3a2d56a2$EntityFormControl_92a656ac85f5ee11a1fe000d3a2d56a2_EntityFormView$EntityFormControl_92a656ac85f5ee11a1fe000d3a2d56a2_EntityFormView_EntityID"
+                                                                                id="EntityFormControl_92a656ac85f5ee11a1fe000d3a2d56a2_EntityFormView_EntityID"><input
+                                                                                type="hidden"
+                                                                                name="ctl00$ContentContainer$EntityFormControl_92a656ac85f5ee11a1fe000d3a2d56a2$EntityFormControl_92a656ac85f5ee11a1fe000d3a2d56a2_EntityFormView$EntityFormControl_92a656ac85f5ee11a1fe000d3a2d56a2_EntityFormView_EntityState"
+                                                                                id="EntityFormControl_92a656ac85f5ee11a1fe000d3a2d56a2_EntityFormView_EntityState"><input
+                                                                                type="hidden"
+                                                                                name="ctl00$ContentContainer$EntityFormControl_92a656ac85f5ee11a1fe000d3a2d56a2$EntityFormControl_92a656ac85f5ee11a1fe000d3a2d56a2_EntityFormView$EntityFormControl_92a656ac85f5ee11a1fe000d3a2d56a2_EntityFormView_EntityStatus"
+                                                                                id="EntityFormControl_92a656ac85f5ee11a1fe000d3a2d56a2_EntityFormView_EntityStatus"><span
+                                                                                id="EntityFormControl_92a656ac85f5ee11a1fe000d3a2d56a2_EntityFormView_EntityLayoutConfig"
+                                                                                data-form-layout="{&quot;EntityName&quot;:&quot;se_portaldocuments&quot;,&quot;Id&quot;:&quot;00000000-0000-0000-0000-000000000000&quot;,&quot;SubmitActionLink&quot;:{&quot;Modal&quot;:{},&quot;Type&quot;:0,&quot;Enabled&quot;:false,&quot;ShowModal&quot;:0,&quot;FilterCriteriaId&quot;:&quot;5ab11d57-1294-4f18-9930-66fa3bc051ec&quot;},&quot;PreviousActionLink&quot;:{&quot;Type&quot;:0,&quot;Enabled&quot;:false,&quot;ShowModal&quot;:0,&quot;FilterCriteriaId&quot;:&quot;469460f9-350c-4c21-8440-e336a8f90938&quot;},&quot;NextActionLink&quot;:{&quot;Type&quot;:0,&quot;Enabled&quot;:false,&quot;ShowModal&quot;:0,&quot;FilterCriteriaId&quot;:&quot;fdb8fa7c-e6f5-47e5-9902-41c1dbdaa223&quot;},&quot;CreateRelatedRecordActionLink&quot;:{&quot;Modal&quot;:{},&quot;Type&quot;:0,&quot;Enabled&quot;:false,&quot;ShowModal&quot;:0,&quot;FilterCriteriaId&quot;:&quot;4cf977a9-7c8e-47f4-a7cc-4859538842b9&quot;},&quot;EnableEntityPermissions&quot;:false,&quot;LanguageCode&quot;:0,&quot;EnableActions&quot;:false,&quot;ShowActionButtonContainer&quot;:0,&quot;AutoGenerateSteps&quot;:false}"></span>
+                                                                            <div id="ValidationSummaryEntityFormControl_92a656ac85f5ee11a1fe000d3a2d56a2_EntityFormView"
+                                                                                class="validation-summary alert alert-error alert-danger alert-block"
+                                                                                role="alert" style="display:none;">
+
+                                                                            </div>
+                                                                            <div class="tr">
+                                                                                <div class="cell file-cell">
+                                                                                    <div class="info required"><label
+                                                                                            for="AttachFile"
+                                                                                            id="AttachFileLabel">Upload</label>
+                                                                                    </div>
+                                                                                    <div class="control"><input
+                                                                                            type="file"
+                                                                                            multiple="multiple"
+                                                                                            name="ctl00$ContentContainer$EntityFormControl_92a656ac85f5ee11a1fe000d3a2d56a2$EntityFormControl_92a656ac85f5ee11a1fe000d3a2d56a2_EntityFormView$AttachFile"
+                                                                                            id="AttachFile" accept="*"
+                                                                                            aria-label="Upload Attach a file..."
+                                                                                            aria-required="true"><span
+                                                                                            id="AttachFileAcceptValidatorAttachFile"
+                                                                                            style="display:none;"></span><span
+                                                                                            id="AttachFileSizeValidatorAttachFile"
+                                                                                            style="display:none;"></span><span
+                                                                                            id="RequiredFieldValidatorAttachFile"
+                                                                                            style="display:none;"></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                       
+                                                                        <div class="actions"><input type="button"
+                                                                                name="ctl00$ContentContainer$EntityFormControl_92a656ac85f5ee11a1fe000d3a2d56a2$InsertButton"
+                                                                                value="Upload"
+                                                                                onclick="javascript:if(typeof entityFormClientValidate === 'function'){if(entityFormClientValidate()){if(typeof Page_ClientValidate === 'function'){if(Page_ClientValidate('')){clearIsDirty();disableButtons();this.value = 'Processing...';}}else{clearIsDirty();disableButtons();this.value = 'Processing...';}}else{return false;}}else{if(typeof Page_ClientValidate === 'function'){if(Page_ClientValidate('')){clearIsDirty();disableButtons();this.value = 'Processing...';}}else{clearIsDirty();disableButtons();this.value = 'Processing...';}};WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentContainer$EntityFormControl_92a656ac85f5ee11a1fe000d3a2d56a2$InsertButton&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"
+                                                                                id="UploadButton"
+                                                                                class="submit-btn btn btn-secondary form-action-container-left">
+                                                                        </div>
+                                                                    </div>
+                                                                        </fieldset>
+                                                                </div>
+
+                                                                <div id="nzsoi">
+                                                                    <h3>Net Zero Statement of Intent</h3>
+                                                                    <p>By signing this Net Zero Statement of Intent
+                                                                        (SOI) document, we formally agrees to uphold the
+                                                                        commitments contained herein. Agreeing to the
+                                                                        commitments
+                                                                        within this SOI enables you
+                                                                        to meet Scottish Enterprise net zero
+                                                                        conditionality for our support. You note that writing a
+                                                                        full net zero plan may be deemed appropriate
+                                                                        should further funding be sought from Scottish
+                                                                        Enterprise at a later date.</p>
+                                                                    <p>We agree to embed sustainability throughout
+                                                                        operations from the outset, minimising emissions
+                                                                        in all business areas over time, providing a
+                                                                        strong foundation from which to formally pursue
+                                                                        net zero in due course. Additionally, we agree
+                                                                        to develop a full net zero strategy at the first
+                                                                        appropriate juncture, that is, when intended
+                                                                        business operations have become more established
+                                                                        and emissions are being generated at scale.
+                                                                        Re-applying the three test questions prior to
+                                                                        any application for subsequent funding can
+                                                                        assist in determining if/when a full plan is
+                                                                        needed.</p>
+                                                                    <p>By agreeing to these terms, we understand that
+                                                                        progress on the commitment to sustainable growth
+                                                                        can be assessed at any time by Scottish
+                                                                        Enterprise, and that failure to comply with the
+                                                                        commitments formally agreed to within this SOI
+                                                                        may prevent that business from accessing future
+                                                                        funding from Scottish Enterprise.</p>
+                                                                    <h3>The conditions under this statement of
+                                                                        intent are laid out in full below:</h3>
+                                                                    <h4> We commit to the following:</h4>
+                                                                    <ul>
+                                                                        <li>Avoid/limit the use of emissions-intensive
+                                                                            travel</li>
+                                                                        <li>Consider the sustainability credentials of
+                                                                            prospective suppliers when making
+                                                                            purchasing decisions</li>
+                                                                        <li>Embed a culture of sustainability via
+                                                                            on-going staff training and engagement</li>
+                                                                        <li>Ensure industrial and commercial processes
+                                                                            are streamlined to avoid unnecessary
+                                                                            generation of waste and/or emissions</li>
+                                                                        <li>Establish a means of periodically, and at
+                                                                            least annually recording data for all scope
+                                                                            1
+                                                                            and 2 emissions sources</li>
+                                                                        <li>Establish a means of periodically, and at
+                                                                            least annually recording data for applicable
+                                                                            scope 3 sources as they arise (where
+                                                                            possible)</li>
+                                                                        <li>Source sustainable materials and observe
+                                                                            resource efficiency throughout operations.
+                                                                        <li>Use clean energy and avoid/limit the use of
+                                                                            fossil fuels across operations</li>
+                                                                        <li>Develop a full net zero strategy at a
+                                                                            suitable juncture in the future, i.e., when
+                                                                            the test questions can no longer be answered
+                                                                            in the affirmative.</li>
+                                                                        <li>Avoid the use of offsetting as a means of
+                                                                            achieving short term carbon reductions</li>
+                                                                        <p>These commitments will be reviewed regularly,
+                                                                            and its progress will be reported to the
+                                                                            board
+                                                                            bi-annually.</p>
+                                                                    </ul>
+                                                                    <fieldset aria-label="Terms_Conditions">
+
+                                                                        <div class="control"><span
+                                                                                class="checkbox "><input
+                                                                                    id="se_accepttermsandconditions"
+                                                                                    type="checkbox"
+                                                                                    name="ctl00$ContentContainer$EntityFormControl_1a571c933772ed1195616045bd905f2d$EntityFormControl_1a571c933772ed1195616045bd905f2d_EntityFormView$se_accepttermsandconditions"
+                                                                                    onclick="setIsDirty(this.id);"
+                                                                                    aria-required="true"
+                                                                                    class=" dirty"></span></div>
+                                                                        <div class="info required">
+                                                                            <label for="se_accepttermsandconditions"
+                                                                                id="se_accepttermsandconditions_label"
+                                                                                class="field-label"
+                                                                                style="margin-left: 4rem; margin-top: -1.5em;">I am an
+                                                                                authorised signatory, and agree to the
+                                                                                terms set out in this document, ensuring
+                                                                                that the business commits to embedding
+                                                                                sustainability as operations grow. I
+                                                                                understand that failing to follow the
+                                                                                above commitments may render the
+                                                                                business ineligible for future Scottish
+                                                                                Enterprise funding.</label>
+                                                                            <div class="validators"><span
+                                                                                    id="RequiredFieldValidatorse_accepttermsandconditions"
+                                                                                    style="display:none;">*</span></div>
+                                                                        </div>
+                                                                    </fieldset>
+                                                                </div>
+                                                                    <div id="NZreason">
+                                                                        <p>We cannot generally support companies that cannot or will not commit to net zero. Please provide a reason for your selection.</p>
+                                                                        <div class="info required">
+                                                                            <label for="se_feedbackmessage" id="se_feedbackmessage_label" class="field-label">Your reason for not developing a net zero plan</label>
+                                                                            <!-- div class="validators">
+                                                                                <span id="RequiredFieldValidatorse_feedbackmessage" style="display:none;">*</span><span id="MaximumLengthValidatorse_feedbackmessage" style="visibility:hidden;">*</span>
+                                                                        </div -->
+                                                                        </div>
+                                                                        <div class="control">
+                                                                            <textarea name="ctl00$ContentContainer$EntityFormControl_1a571c933772ed1195616045bd905f2d$EntityFormControl_1a571c933772ed1195616045bd905f2d_EntityFormView$se_feedbackmessage" rows="5" cols="20" maxlength="50000" id="se_feedbackmessage" class="textarea form-control " onchange="setIsDirty(this.id);" aria-required="true" title="Your feedback or message is a required field." aria-label="Your feedback or message" onkeydown="javascript:return LimitInput(this, event);" oninput="javascript:return LimitInput(this, event);" onpaste="javascript:return LimitPaste(this, event);"></textarea>
+                                                                        </div>
+                                                                    </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                               <div class="actions"><input type="button" name="ctl00$ContentContainer$EntityFormControl_1a571c933772ed1195616045bd905f2d$InsertButton" value="Submit" onclick="javascript:window.location.href = 'https://scotentsd.github.io/homepage-cta4.htm';" id="InsertButton" class="submit-btn btn btn-primary" aria-labelledby="next"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container adx-form">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            //<![CDATA[
+            var Page_ValidationSummaries = new Array(document.getElementById("ValidationSummaryEntityFormControl_1a571c933772ed1195616045bd905f2d_EntityFormView"));
+            var Page_Validators = new Array(document.getElementById("RequiredFieldValidatorse_contactus"), document.getElementById("RequiredFieldValidatorse_feedbackmessage"), document.getElementById("MaximumLengthValidatorse_feedbackmessage"), document.getElementById("RequiredFieldValidatorse_firstname"), document.getElementById("MaximumLengthValidatorse_firstname"), document.getElementById("RequiredFieldValidatorse_lastname"), document.getElementById("MaximumLengthValidatorse_lastname"), document.getElementById("EmailFormatValidatorse_emailaddress"), document.getElementById("RequiredFieldValidatorse_emailaddress"), document.getElementById("RegularExpressionValidatorse_emailaddress"), document.getElementById("MaximumLengthValidatorse_emailaddress"), document.getElementById("RequiredFieldValidatorse_phone"), document.getElementById("MaximumLengthValidatorse_phone"), document.getElementById("RequiredFieldValidatorse_name"), document.getElementById("MaximumLengthValidatorse_name"), document.getElementById("RequiredFieldValidatorse_addressline1"), document.getElementById("MaximumLengthValidatorse_addressline1"), document.getElementById("MaximumLengthValidatorse_addressline2"), document.getElementById("MaximumLengthValidatorse_addressline3"), document.getElementById("RequiredFieldValidatorse_town"), document.getElementById("MaximumLengthValidatorse_town"), document.getElementById("RequiredFieldValidatorse_postcode"), document.getElementById("MaximumLengthValidatorse_postcode"), document.getElementById("RequiredFieldValidatorse_accepttermsandconditions"));
+            //]]>
+        </script>
+
+        <script type="text/javascript">
+            //<![CDATA[
+            var se_feedbackmessage = document.all ? document.all["se_feedbackmessage"] : document.getElementById("se_feedbackmessage");
+            se_feedbackmessage.exMaxLen = "50000";
+            var ValidationSummaryEntityFormControl_1a571c933772ed1195616045bd905f2d_EntityFormView = document.all ? document.all["ValidationSummaryEntityFormControl_1a571c933772ed1195616045bd905f2d_EntityFormView"] : document.getElementById("ValidationSummaryEntityFormControl_1a571c933772ed1195616045bd905f2d_EntityFormView");
+            ValidationSummaryEntityFormControl_1a571c933772ed1195616045bd905f2d_EntityFormView.headertext = "<h2 class=\'validation-header\'><span role=\'presentation\' class=\'fa fa-info-circle\'></span> The form could not be submitted for the following reasons:</h2>";
+            var RequiredFieldValidatorse_contactus = document.all ? document.all["RequiredFieldValidatorse_contactus"] : document.getElementById("RequiredFieldValidatorse_contactus");
+            RequiredFieldValidatorse_contactus.controltovalidate = "se_contactus";
+            RequiredFieldValidatorse_contactus.errormessage = "<a href=\'#se_contactus_label\' onclick=\'javascript:scrollToAndFocus(\"se_contactus_label\",\"se_contactus\");return false;\' referenceControlId=se_contactus>Why are you contacting us today? is a required field. </a>";
+            RequiredFieldValidatorse_contactus.display = "Dynamic";
+            RequiredFieldValidatorse_contactus.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+            RequiredFieldValidatorse_contactus.initialvalue = "";
+            var RequiredFieldValidatorse_feedbackmessage = document.all ? document.all["RequiredFieldValidatorse_feedbackmessage"] : document.getElementById("RequiredFieldValidatorse_feedbackmessage");
+            RequiredFieldValidatorse_feedbackmessage.controltovalidate = "se_feedbackmessage";
+            RequiredFieldValidatorse_feedbackmessage.errormessage = "<a href=\'#se_feedbackmessage_label\' onclick=\'javascript:scrollToAndFocus(\"se_feedbackmessage_label\",\"se_feedbackmessage\");return false;\' referenceControlId=se_feedbackmessage>Your feedback or message is a required field. </a>";
+            RequiredFieldValidatorse_feedbackmessage.display = "Dynamic";
+            RequiredFieldValidatorse_feedbackmessage.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+            RequiredFieldValidatorse_feedbackmessage.initialvalue = "";
+            var MaximumLengthValidatorse_feedbackmessage = document.all ? document.all["MaximumLengthValidatorse_feedbackmessage"] : document.getElementById("MaximumLengthValidatorse_feedbackmessage");
+            MaximumLengthValidatorse_feedbackmessage.controltovalidate = "se_feedbackmessage";
+            MaximumLengthValidatorse_feedbackmessage.errormessage = "<a href=\'#se_feedbackmessage_label\' onclick=\'javascript:scrollToAndFocus(\"se_feedbackmessage_label\",\"se_feedbackmessage\");return false;\' referenceControlId=se_feedbackmessage>Your feedback or message exceeds the maximum length of 50000 characters. </a>";
+            MaximumLengthValidatorse_feedbackmessage.evaluationfunction = "CustomValidatorEvaluateIsValid";
+            var RequiredFieldValidatorse_firstname = document.all ? document.all["RequiredFieldValidatorse_firstname"] : document.getElementById("RequiredFieldValidatorse_firstname");
+            RequiredFieldValidatorse_firstname.controltovalidate = "se_firstname";
+            RequiredFieldValidatorse_firstname.errormessage = "<a href=\'#se_firstname_label\' onclick=\'javascript:scrollToAndFocus(\"se_firstname_label\",\"se_firstname\");return false;\' referenceControlId=se_firstname>First name is a required field. </a>";
+            RequiredFieldValidatorse_firstname.display = "Dynamic";
+            RequiredFieldValidatorse_firstname.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+            RequiredFieldValidatorse_firstname.initialvalue = "";
+            var MaximumLengthValidatorse_firstname = document.all ? document.all["MaximumLengthValidatorse_firstname"] : document.getElementById("MaximumLengthValidatorse_firstname");
+            MaximumLengthValidatorse_firstname.controltovalidate = "se_firstname";
+            MaximumLengthValidatorse_firstname.errormessage = "<a href=\'#se_firstname_label\' onclick=\'javascript:scrollToAndFocus(\"se_firstname_label\",\"se_firstname\");return false;\' referenceControlId=se_firstname>First name exceeds the maximum length of 250 characters. </a>";
+            MaximumLengthValidatorse_firstname.evaluationfunction = "CustomValidatorEvaluateIsValid";
+            var RequiredFieldValidatorse_lastname = document.all ? document.all["RequiredFieldValidatorse_lastname"] : document.getElementById("RequiredFieldValidatorse_lastname");
+            RequiredFieldValidatorse_lastname.controltovalidate = "se_lastname";
+            RequiredFieldValidatorse_lastname.errormessage = "<a href=\'#se_lastname_label\' onclick=\'javascript:scrollToAndFocus(\"se_lastname_label\",\"se_lastname\");return false;\' referenceControlId=se_lastname>Last name is a required field. </a>";
+            RequiredFieldValidatorse_lastname.display = "Dynamic";
+            RequiredFieldValidatorse_lastname.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+            RequiredFieldValidatorse_lastname.initialvalue = "";
+            var MaximumLengthValidatorse_lastname = document.all ? document.all["MaximumLengthValidatorse_lastname"] : document.getElementById("MaximumLengthValidatorse_lastname");
+            MaximumLengthValidatorse_lastname.controltovalidate = "se_lastname";
+            MaximumLengthValidatorse_lastname.errormessage = "<a href=\'#se_lastname_label\' onclick=\'javascript:scrollToAndFocus(\"se_lastname_label\",\"se_lastname\");return false;\' referenceControlId=se_lastname>Last name exceeds the maximum length of 250 characters. </a>";
+            MaximumLengthValidatorse_lastname.evaluationfunction = "CustomValidatorEvaluateIsValid";
+            var EmailFormatValidatorse_emailaddress = document.all ? document.all["EmailFormatValidatorse_emailaddress"] : document.getElementById("EmailFormatValidatorse_emailaddress");
+            EmailFormatValidatorse_emailaddress.controltovalidate = "se_emailaddress";
+            EmailFormatValidatorse_emailaddress.errormessage = "<a href=\'#se_emailaddress_label\' onclick=\'javascript:scrollToAndFocus(\"se_emailaddress_label\",\"se_emailaddress\");return false;\' referenceControlId=se_emailaddress>Email Address must be a valid email address. </a>";
+            EmailFormatValidatorse_emailaddress.evaluationfunction = "CustomValidatorEvaluateIsValid";
+            var RequiredFieldValidatorse_emailaddress = document.all ? document.all["RequiredFieldValidatorse_emailaddress"] : document.getElementById("RequiredFieldValidatorse_emailaddress");
+            RequiredFieldValidatorse_emailaddress.controltovalidate = "se_emailaddress";
+            RequiredFieldValidatorse_emailaddress.errormessage = "<a href=\'#se_emailaddress_label\' onclick=\'javascript:scrollToAndFocus(\"se_emailaddress_label\",\"se_emailaddress\");return false;\' referenceControlId=se_emailaddress>Email Address is a required field. </a>";
+            RequiredFieldValidatorse_emailaddress.display = "Dynamic";
+            RequiredFieldValidatorse_emailaddress.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+            RequiredFieldValidatorse_emailaddress.initialvalue = "";
+            var RegularExpressionValidatorse_emailaddress = document.all ? document.all["RegularExpressionValidatorse_emailaddress"] : document.getElementById("RegularExpressionValidatorse_emailaddress");
+            RegularExpressionValidatorse_emailaddress.controltovalidate = "se_emailaddress";
+            RegularExpressionValidatorse_emailaddress.errormessage = "<a href=\'#se_emailaddress_label\' onclick=\'javascript:scrollToAndFocus(\"se_emailaddress_label\",\"se_emailaddress\");return false;\' referenceControlId=se_emailaddress>Email Address is not valid. </a>";
+            RegularExpressionValidatorse_emailaddress.display = "None";
+            RegularExpressionValidatorse_emailaddress.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+            RegularExpressionValidatorse_emailaddress.validationexpression = "^[^\\s@]+@([^\\s@.,]+\\.)+[^\\s@.,]{2,}$";
+            var MaximumLengthValidatorse_emailaddress = document.all ? document.all["MaximumLengthValidatorse_emailaddress"] : document.getElementById("MaximumLengthValidatorse_emailaddress");
+            MaximumLengthValidatorse_emailaddress.controltovalidate = "se_emailaddress";
+            MaximumLengthValidatorse_emailaddress.errormessage = "<a href=\'#se_emailaddress_label\' onclick=\'javascript:scrollToAndFocus(\"se_emailaddress_label\",\"se_emailaddress\");return false;\' referenceControlId=se_emailaddress>Email Address exceeds the maximum length of 254 characters. </a>";
+            MaximumLengthValidatorse_emailaddress.evaluationfunction = "CustomValidatorEvaluateIsValid";
+            var RequiredFieldValidatorse_phone = document.all ? document.all["RequiredFieldValidatorse_phone"] : document.getElementById("RequiredFieldValidatorse_phone");
+            RequiredFieldValidatorse_phone.controltovalidate = "se_phone";
+            RequiredFieldValidatorse_phone.errormessage = "<a href=\'#se_phone_label\' onclick=\'javascript:scrollToAndFocus(\"se_phone_label\",\"se_phone\");return false;\' referenceControlId=se_phone>Phone number is a required field. </a>";
+            RequiredFieldValidatorse_phone.display = "Dynamic";
+            RequiredFieldValidatorse_phone.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+            RequiredFieldValidatorse_phone.initialvalue = "";
+            var MaximumLengthValidatorse_phone = document.all ? document.all["MaximumLengthValidatorse_phone"] : document.getElementById("MaximumLengthValidatorse_phone");
+            MaximumLengthValidatorse_phone.controltovalidate = "se_phone";
+            MaximumLengthValidatorse_phone.errormessage = "<a href=\'#se_phone_label\' onclick=\'javascript:scrollToAndFocus(\"se_phone_label\",\"se_phone\");return false;\' referenceControlId=se_phone>Phone number exceeds the maximum length of 100 characters. </a>";
+            MaximumLengthValidatorse_phone.evaluationfunction = "CustomValidatorEvaluateIsValid";
+            var RequiredFieldValidatorse_name = document.all ? document.all["RequiredFieldValidatorse_name"] : document.getElementById("RequiredFieldValidatorse_name");
+            RequiredFieldValidatorse_name.controltovalidate = "se_name";
+            RequiredFieldValidatorse_name.errormessage = "<a href=\'#se_name_label\' onclick=\'javascript:scrollToAndFocus(\"se_name_label\",\"se_name\");return false;\' referenceControlId=se_name>Company name is a required field. </a>";
+            RequiredFieldValidatorse_name.display = "Dynamic";
+            RequiredFieldValidatorse_name.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+            RequiredFieldValidatorse_name.initialvalue = "";
+            var MaximumLengthValidatorse_name = document.all ? document.all["MaximumLengthValidatorse_name"] : document.getElementById("MaximumLengthValidatorse_name");
+            MaximumLengthValidatorse_name.controltovalidate = "se_name";
+            MaximumLengthValidatorse_name.errormessage = "<a href=\'#se_name_label\' onclick=\'javascript:scrollToAndFocus(\"se_name_label\",\"se_name\");return false;\' referenceControlId=se_name>Company name exceeds the maximum length of 500 characters. </a>";
+            MaximumLengthValidatorse_name.evaluationfunction = "CustomValidatorEvaluateIsValid";
+            var RequiredFieldValidatorse_addressline1 = document.all ? document.all["RequiredFieldValidatorse_addressline1"] : document.getElementById("RequiredFieldValidatorse_addressline1");
+            RequiredFieldValidatorse_addressline1.controltovalidate = "se_addressline1";
+            RequiredFieldValidatorse_addressline1.errormessage = "<a href=\'#se_addressline1_label\' onclick=\'javascript:scrollToAndFocus(\"se_addressline1_label\",\"se_addressline1\");return false;\' referenceControlId=se_addressline1>Address Line 1 is a required field. </a>";
+            RequiredFieldValidatorse_addressline1.display = "Dynamic";
+            RequiredFieldValidatorse_addressline1.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+            RequiredFieldValidatorse_addressline1.initialvalue = "";
+            var MaximumLengthValidatorse_addressline1 = document.all ? document.all["MaximumLengthValidatorse_addressline1"] : document.getElementById("MaximumLengthValidatorse_addressline1");
+            MaximumLengthValidatorse_addressline1.controltovalidate = "se_addressline1";
+            MaximumLengthValidatorse_addressline1.errormessage = "<a href=\'#se_addressline1_label\' onclick=\'javascript:scrollToAndFocus(\"se_addressline1_label\",\"se_addressline1\");return false;\' referenceControlId=se_addressline1>Address Line 1 exceeds the maximum length of 250 characters. </a>";
+            MaximumLengthValidatorse_addressline1.evaluationfunction = "CustomValidatorEvaluateIsValid";
+            var MaximumLengthValidatorse_addressline2 = document.all ? document.all["MaximumLengthValidatorse_addressline2"] : document.getElementById("MaximumLengthValidatorse_addressline2");
+            MaximumLengthValidatorse_addressline2.controltovalidate = "se_addressline2";
+            MaximumLengthValidatorse_addressline2.errormessage = "<a href=\'#se_addressline2_label\' onclick=\'javascript:scrollToAndFocus(\"se_addressline2_label\",\"se_addressline2\");return false;\' referenceControlId=se_addressline2>Address Line 2 exceeds the maximum length of 250 characters. </a>";
+            MaximumLengthValidatorse_addressline2.evaluationfunction = "CustomValidatorEvaluateIsValid";
+            var MaximumLengthValidatorse_addressline3 = document.all ? document.all["MaximumLengthValidatorse_addressline3"] : document.getElementById("MaximumLengthValidatorse_addressline3");
+            MaximumLengthValidatorse_addressline3.controltovalidate = "se_addressline3";
+            MaximumLengthValidatorse_addressline3.errormessage = "<a href=\'#se_addressline3_label\' onclick=\'javascript:scrollToAndFocus(\"se_addressline3_label\",\"se_addressline3\");return false;\' referenceControlId=se_addressline3>Address Line 3 exceeds the maximum length of 250 characters. </a>";
+            MaximumLengthValidatorse_addressline3.evaluationfunction = "CustomValidatorEvaluateIsValid";
+            var RequiredFieldValidatorse_town = document.all ? document.all["RequiredFieldValidatorse_town"] : document.getElementById("RequiredFieldValidatorse_town");
+            RequiredFieldValidatorse_town.controltovalidate = "se_town";
+            RequiredFieldValidatorse_town.errormessage = "<a href=\'#se_town_label\' onclick=\'javascript:scrollToAndFocus(\"se_town_label\",\"se_town\");return false;\' referenceControlId=se_town>Town/City is a required field. </a>";
+            RequiredFieldValidatorse_town.display = "Dynamic";
+            RequiredFieldValidatorse_town.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+            RequiredFieldValidatorse_town.initialvalue = "";
+            var MaximumLengthValidatorse_town = document.all ? document.all["MaximumLengthValidatorse_town"] : document.getElementById("MaximumLengthValidatorse_town");
+            MaximumLengthValidatorse_town.controltovalidate = "se_town";
+            MaximumLengthValidatorse_town.errormessage = "<a href=\'#se_town_label\' onclick=\'javascript:scrollToAndFocus(\"se_town_label\",\"se_town\");return false;\' referenceControlId=se_town>Town/City exceeds the maximum length of 250 characters. </a>";
+            MaximumLengthValidatorse_town.evaluationfunction = "CustomValidatorEvaluateIsValid";
+            var RequiredFieldValidatorse_postcode = document.all ? document.all["RequiredFieldValidatorse_postcode"] : document.getElementById("RequiredFieldValidatorse_postcode");
+            RequiredFieldValidatorse_postcode.controltovalidate = "se_postcode";
+            RequiredFieldValidatorse_postcode.errormessage = "<a href=\'#se_postcode_label\' onclick=\'javascript:scrollToAndFocus(\"se_postcode_label\",\"se_postcode\");return false;\' referenceControlId=se_postcode>Postcode is a required field. </a>";
+            RequiredFieldValidatorse_postcode.display = "Dynamic";
+            RequiredFieldValidatorse_postcode.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+            RequiredFieldValidatorse_postcode.initialvalue = "";
+            var MaximumLengthValidatorse_postcode = document.all ? document.all["MaximumLengthValidatorse_postcode"] : document.getElementById("MaximumLengthValidatorse_postcode");
+            MaximumLengthValidatorse_postcode.controltovalidate = "se_postcode";
+            MaximumLengthValidatorse_postcode.errormessage = "<a href=\'#se_postcode_label\' onclick=\'javascript:scrollToAndFocus(\"se_postcode_label\",\"se_postcode\");return false;\' referenceControlId=se_postcode>Postcode exceeds the maximum length of 250 characters. </a>";
+            MaximumLengthValidatorse_postcode.evaluationfunction = "CustomValidatorEvaluateIsValid";
+            var RequiredFieldValidatorse_accepttermsandconditions = document.all ? document.all["RequiredFieldValidatorse_accepttermsandconditions"] : document.getElementById("RequiredFieldValidatorse_accepttermsandconditions");
+            RequiredFieldValidatorse_accepttermsandconditions.controltovalidate = "se_accepttermsandconditions";
+            RequiredFieldValidatorse_accepttermsandconditions.errormessage = "<a href=\'#se_accepttermsandconditions_label\' onclick=\'javascript:scrollToAndFocus(\"se_accepttermsandconditions_label\",\"se_accepttermsandconditions\");return false;\' referenceControlId=se_accepttermsandconditions>Please check the \'Declaration\' box before submitting the application </a>";
+            RequiredFieldValidatorse_accepttermsandconditions.display = "Dynamic";
+            RequiredFieldValidatorse_accepttermsandconditions.evaluationfunction = "CustomValidatorEvaluateIsValid";
+            //]]>
+        </script>
+
+        <script type="text/javascript">
+            //<![CDATA[
+            (function (id) {
+                var e = document.getElementById(id);
+                if (e) {
+                    e.dispose = function () {
+                        Array.remove(Page_ValidationSummaries, document.getElementById(id));
+                    }
+                    e = null;
+                }
+            })('ValidationSummaryEntityFormControl_1a571c933772ed1195616045bd905f2d_EntityFormView');
+            var Page_ValidationActive = false;
+            if (typeof (ValidatorOnLoad) == "function") {
+                ValidatorOnLoad();
+            }
+
+            function ValidatorOnSubmit() {
+                if (Page_ValidationActive) {
+                    return ValidatorCommonOnSubmit();
+                } else {
+                    return true;
+                }
+            }
+            document.getElementById('RequiredFieldValidatorse_contactus').dispose = function () {
+                Array.remove(Page_Validators, document.getElementById('RequiredFieldValidatorse_contactus'));
+            }
+            document.getElementById('RequiredFieldValidatorse_feedbackmessage').dispose = function () {
+                Array.remove(Page_Validators, document.getElementById('RequiredFieldValidatorse_feedbackmessage'));
+            }
+            document.getElementById('MaximumLengthValidatorse_feedbackmessage').dispose = function () {
+                Array.remove(Page_Validators, document.getElementById('MaximumLengthValidatorse_feedbackmessage'));
+            }
+            document.getElementById('RequiredFieldValidatorse_firstname').dispose = function () {
+                Array.remove(Page_Validators, document.getElementById('RequiredFieldValidatorse_firstname'));
+            }
+            document.getElementById('MaximumLengthValidatorse_firstname').dispose = function () {
+                Array.remove(Page_Validators, document.getElementById('MaximumLengthValidatorse_firstname'));
+            }
+            document.getElementById('RequiredFieldValidatorse_lastname').dispose = function () {
+                Array.remove(Page_Validators, document.getElementById('RequiredFieldValidatorse_lastname'));
+            }
+            document.getElementById('MaximumLengthValidatorse_lastname').dispose = function () {
+                Array.remove(Page_Validators, document.getElementById('MaximumLengthValidatorse_lastname'));
+            }
+            document.getElementById('EmailFormatValidatorse_emailaddress').dispose = function () {
+                Array.remove(Page_Validators, document.getElementById('EmailFormatValidatorse_emailaddress'));
+            }
+            document.getElementById('RequiredFieldValidatorse_emailaddress').dispose = function () {
+                Array.remove(Page_Validators, document.getElementById('RequiredFieldValidatorse_emailaddress'));
+            }
+            document.getElementById('RegularExpressionValidatorse_emailaddress').dispose = function () {
+                Array.remove(Page_Validators, document.getElementById('RegularExpressionValidatorse_emailaddress'));
+            }
+            document.getElementById('MaximumLengthValidatorse_emailaddress').dispose = function () {
+                Array.remove(Page_Validators, document.getElementById('MaximumLengthValidatorse_emailaddress'));
+            }
+            document.getElementById('RequiredFieldValidatorse_phone').dispose = function () {
+                Array.remove(Page_Validators, document.getElementById('RequiredFieldValidatorse_phone'));
+            }
+            document.getElementById('MaximumLengthValidatorse_phone').dispose = function () {
+                Array.remove(Page_Validators, document.getElementById('MaximumLengthValidatorse_phone'));
+            }
+            document.getElementById('RequiredFieldValidatorse_name').dispose = function () {
+                Array.remove(Page_Validators, document.getElementById('RequiredFieldValidatorse_name'));
+            }
+            document.getElementById('MaximumLengthValidatorse_name').dispose = function () {
+                Array.remove(Page_Validators, document.getElementById('MaximumLengthValidatorse_name'));
+            }
+            document.getElementById('RequiredFieldValidatorse_addressline1').dispose = function () {
+                Array.remove(Page_Validators, document.getElementById('RequiredFieldValidatorse_addressline1'));
+            }
+            document.getElementById('MaximumLengthValidatorse_addressline1').dispose = function () {
+                Array.remove(Page_Validators, document.getElementById('MaximumLengthValidatorse_addressline1'));
+            }
+            document.getElementById('MaximumLengthValidatorse_addressline2').dispose = function () {
+                Array.remove(Page_Validators, document.getElementById('MaximumLengthValidatorse_addressline2'));
+            }
+            document.getElementById('MaximumLengthValidatorse_addressline3').dispose = function () {
+                Array.remove(Page_Validators, document.getElementById('MaximumLengthValidatorse_addressline3'));
+            }
+            document.getElementById('RequiredFieldValidatorse_town').dispose = function () {
+                Array.remove(Page_Validators, document.getElementById('RequiredFieldValidatorse_town'));
+            }
+            document.getElementById('MaximumLengthValidatorse_town').dispose = function () {
+                Array.remove(Page_Validators, document.getElementById('MaximumLengthValidatorse_town'));
+            }
+            document.getElementById('RequiredFieldValidatorse_postcode').dispose = function () {
+                Array.remove(Page_Validators, document.getElementById('RequiredFieldValidatorse_postcode'));
+            }
+            document.getElementById('MaximumLengthValidatorse_postcode').dispose = function () {
+                Array.remove(Page_Validators, document.getElementById('MaximumLengthValidatorse_postcode'));
+            }
+            document.getElementById('RequiredFieldValidatorse_accepttermsandconditions').dispose = function () {
+                Array.remove(Page_Validators, document.getElementById('RequiredFieldValidatorse_accepttermsandconditions'));
+            }
+            //]]>
+        </script>
+    </form>
+
+    <script
+        onerror="javascript: var target = event.target; var script = document.createElement('script'); script.crossOrigin = target.crossOrigin; script.src = '/dist/pcf-loader.bundle-f4a0e619b8.js'; script.type = 'text/javascript'; target.insertAdjacentElement('afterend',script);"
+        src="https://content.powerapps.com/resource/powerappsportal/dist/pcf-loader.bundle-f4a0e619b8.js"
+        type="text/javascript"></script>
+
+    <div id="pp-native-controls-react-root"></div>
+    <script>
+        window._nativeControlConfig = {
+            "publicPath": "https://content.powerapps.com/resource/powerappsportal/controls",
+            "versions": {
+                "pcf_loader": "0.0.31",
+                "pcf_controls": "3.10.0",
+                "mf_shared": "0.2.11",
+                "host": "0.9.2",
+                "data_grid": "1.6.8",
+                "controls_fluent_v9": "0.0.34"
+            }
+        }
+    </script>
+    <script defer="defer"
+        src="https://content.powerapps.com/resource/powerappsportal/controls/host/main.b26f42703f.chunk.js"></script>
+
+    <!-- Offline banner fixes -->
+    <script>
+        let offlineBanner = document.getElementById("offlineNotificationBar");
+        let btnClose = document.getElementById("close");
+        let aTag = document.createElement('a');
+        let img = document.getElementById("web");
+        window.onload = function () {
+            updateOfflineBanner()
+        };
+
+        function updateOfflineBanner() {
+            btnClose.remove();
+            aTag.setAttribute('href', '#');
+            aTag.setAttribute('id', 'linkClose');
+            aTag.innerText = "Close";
+            offlineBanner.appendChild(aTag);
+            img.setAttribute('alt', ' ');
+            let linkClose = document.getElementById('linkClose');
+            linkClose.addEventListener('click', hideBanner);
+        }
+
+        function hideBanner() {
+            offlineBanner.style.display = 'none';
+        }
+    </script>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <nav aria-label="Footer navigation links" class="col-md-12 footer__lower-content">
+                    <ul class="footer__links">
+                        <li><a class="footer__link" href="https://account.scottish-enterprise.com/Accessibility"
+                                target="_blank">Accessibility</a></li>
+                        <li><a class="footer__link" href="#" id="edit-cookies-footer-link">Edit cookie settings</a></li>
+                        <li><a class="footer__link" href="https://account.scottish-enterprise.com/cookie-policy"
+                                target="_blank">Cookie policy</a></li>
+                        <li><a class="footer__link" href="https://www.scottish-enterprise.com/help/privacy-notice"
+                                target="_blank">Privacy notice<span class="sr-only">Link opens in a new
+                                    window</span></a></li>
+                        <li><a class="footer__link" href="https://account.scottish-enterprise.com/terms-and-conditions"
+                                target="_blank">Terms and conditions</a></li>
+                        <li><a class="footer__link" href="https://account.scottish-enterprise.com/contact-us"
+                                target="_blank">Contact us</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="row footer__copyright"><span><span aria-hidden="true">© </span>Scottish Enterprise 2025. All
+                    rights reserved.</span></div>
+        </div>
+    </footer>
+
+    <script
+        onerror="javascript: var target = event.target; var script = document.createElement('script'); script.crossOrigin = target.crossOrigin; script.src = 'https://content.powerapps.com/resource/powerappsportal/dist/bootstrap.bundle-105a4995b8.js'; script.type = 'text/javascript'; target.insertAdjacentElement('afterend',script);"
+        src="https://content.powerapps.com/resource/powerappsportal/dist/bootstrap.bundle-105a4995b8.js"
+        type="text/javascript"></script>
+
+    <script
+        onerror="javascript: var target = event.target; var script = document.createElement('script'); script.crossOrigin = target.crossOrigin; script.src = 'https://content.powerapps.com/resource/powerappsportal/dist/postpreform.bundle-184c77da50.js'; script.type = 'text/javascript'; target.insertAdjacentElement('afterend',script);"
+        src="https://content.powerapps.com/resource/powerappsportal/dist/postpreform.bundle-184c77da50.js"
+        type="text/javascript"></script>
+
+    <script
+        onerror="javascript: var target = event.target; var script = document.createElement('script'); script.crossOrigin = target.crossOrigin; script.src = 'https://content.powerapps.com/resource/powerappsportal/dist/app.bundle-a9e4fdb602.js'; script.type = 'text/javascript'; target.insertAdjacentElement('afterend',script);"
+        src="https://content.powerapps.com/resource/powerappsportal/dist/app.bundle-a9e4fdb602.js"
+        type="text/javascript"></script>
+
+    <script
+        onerror="javascript: var target = event.target; var script = document.createElement('script'); script.crossOrigin = target.crossOrigin; script.src = 'https://content.powerapps.com/resource/powerappsportal/dist/default-1033.moment_2_29_4.bundle-eda4e638fd.js'; script.type = 'text/javascript'; target.insertAdjacentElement('afterend',script);"
+        src="https://content.powerapps.com/resource/powerappsportal/dist/default-1033.moment_2_29_4.bundle-eda4e638fd.js"
+        type="text/javascript"></script>
+
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', () => {
+            const button = document.querySelector('input[type="button"][value="Submit"]');
+            if (button) {
+                // fix to center btn text
+                button.classList.remove('form-action-container-left');
+            }
+        });
+    </script>
+
+    <script>
+        //this event will update the title of the page based on active breadcrumb
+        $('.breadcrumb').ready(function () {
+            if ($('.breadcrumb').is(':visible')) {
+                document.querySelector('title').innerHTML = ($('.breadcrumb > li.active').text() + "&nbsp;·&nbsp;Scottish Enterprise Account");
+            }
+        });
+
+        function GoToNewEditor() {
+            var editCmsUrlSegment = "EditInCms";
+            var currentUrl = window.location.href;
+            if (currentUrl.indexOf('?') > -1) {
+                var urlSegments = currentUrl.split("?");
+                window.location.href = window.location.origin + '/' + editCmsUrlSegment + window.location.pathname + '?' + urlSegments[1];
+            } else {
+                window.location.href = window.location.origin + '/' + editCmsUrlSegment + window.location.pathname;
+            }
+        }
+    </script>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.getRegistrations().then(function (registrations) {
+                for (let registration of registrations) {
+                    registration.unregister();
+                }
+            }).catch(function (err) {
+                console.log('Service Worker unregister action failed: ', err);
+            });
+        }
+    </script>
+
+    <!--Start Show Session Expire Warning Popup here -->
+
+
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+
+    <script type="text/javascript">document.addEventListener('DOMContentLoaded', function () {
+            // adds a class to main content
+            var mainContentDiv = document.getElementById('mainContent');
+            mainContentDiv.classList.add('document-upload');
+
+            var fileUploadInput = document.getElementById('AttachFile');
+            var uploadButton = document.getElementById('UploadButton');
+            var fileInfoDiv = document.getElementById('file-info');
+            var fileTable = document.getElementById('file-table');
+            var errorSummary = document.querySelectorAll('[id*="ValidationSummaryEntityFormControl"]');
+
+            uploadButton.value = 'Upload';
+
+            // Listen for changes in the file input
+            fileUploadInput.addEventListener('change', function (event) {
+                var fileList = event.target.files;
+                fileInfoDiv.innerHTML = '';
+                fileTable.innerHTML = '';
+
+                // Hides error summary when a new file is selected for upload
+                if (errorSummary) {
+                    errorSummary.forEach(function (element) {
+                        element.style.display = 'none';
+                    });
+                }
+
+                if (fileList.length > 0) {
+                    var tableHTML = '<tr id="table-heading"><th scope="col">File Name</th><th scope="col">Size</th><th scope="col">Action</th></tr>';
+                    for (var i = 0; i < fileList.length; i++) {
+                        tableHTML += '<tr><td>' + fileList[i].name + '</td><td>' + formatBytes(fileList[i].size) + '</td><td><button class="btn remove-btn" data-index="' + i + '" aria-label="Remove ' + fileList[i].name + '">Remove</button></td></tr>';
+                    }
+                    fileTable.innerHTML = tableHTML;
+                } else {
+                    fileInfoDiv.textContent = ' ';
+                }
+            });
+
+            // Listen for clicks on remove buttons
+            fileTable.addEventListener('click', function (event) {
+                if (event.target.classList.contains('remove-btn')) {
+                    var index = parseInt(event.target.getAttribute('data-index'));
+                    var fileList = fileUploadInput.files;
+                    var newFileList = [];
+                    for (var i = 0; i < fileList.length; i++) {
+                        if (i !== index) {
+                            newFileList.push(fileList[i]);
+                        }
+                    }
+                    // Create a new FileList object with the updated file list
+                    var newFileListObj = new DataTransfer();
+                    for (var j = 0; j < newFileList.length; j++) {
+                        newFileListObj.items.add(newFileList[j]);
+                    }
+                    fileUploadInput.files = newFileListObj.files;
+                    fileUploadInput.dispatchEvent(new Event('change'));
+                }
+            });
+
+            // Function to format file size
+            function formatBytes(bytes, decimals = 2) {
+                if (bytes === 0) return '0 Bytes';
+                const k = 1024;
+                const dm = decimals < 0 ? 0 : decimals;
+                const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
+                const i = Math.floor(Math.log(bytes) / Math.log(k));
+                return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
+            }
+        });</script>
+<style>
+    #EntityFormPanel2, #nzsoi, #NZreason {
+        display: none;
+    }
+</style>
+    <script>
+  document.addEventListener("DOMContentLoaded", function () {
+  // Radio buttons
+  const nz1 = document.getElementById("nz1");
+  const nz2 = document.getElementById("nz2");
+  const nz3 = document.getElementById("nz3");
+
+  // Content
+  const option1 = document.getElementById("EntityFormPanel2");
+  const option2 = document.getElementById("nzsoi");
+  const option3 = document.getElementById("NZreason");
+
+  nz1.addEventListener("change", function () {
+    if (nz1.checked) {
+      option1.style.display = "block";
+      option2.style.display = "none";
+      option3.style.display = "none";
+    } else {
+      option1.style.display = "none";
+    }
+  });
+
+  nz2.addEventListener("change", function () {
+    if (nz2.checked) {
+      option2.style.display = "block";
+      option1.style.display = "none";
+      option3.style.display = "none";
+    } else {
+      option2.style.display = "none";
+    }
+  });
+
+  nz3.addEventListener("change", function () {
+    if (nz3.checked) {
+      option3.style.display = "block";
+      option1.style.display = "none";
+      option2.style.display = "none";
+    } else {
+      option3.style.display = "none";
+    }
+  });
+}); // End DOMContentLoaded event
+    </script>
+</body>
+
+</html>
