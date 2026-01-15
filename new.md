@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Starting with Github
-permalink: /new-to-github/
+permalink: /new/
 ---
 
 Our files and code to make the website are here: [https://github.com/scotentSD](https://github.com/scotentSD)
