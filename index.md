@@ -10,7 +10,6 @@ layout: default
       <li><a href="{{ site.baseurl}}/funding">BSA- Funding</a></li>
       <li><a href="{{ site.baseurl}}/opportunity">BSA- Opportunity Management</a></li>
       <li><a href="{{ site.baseurl}}/customer-account">BSA- Customer Portal Account</a></li>
-      <li><a href="{{ site.baseurl}}/optimisation">SE Website optimisation </a></li>
       <li><a href="{{ site.baseurl}}/sep/index.html">Find Business Support (FBS)</a></li>
       <li><a href="{{ site.baseurl}}/exportselfassessment">Export Self Assessment</a></li>
 </ul>
