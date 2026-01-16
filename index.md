@@ -17,7 +17,7 @@ layout: default
 <h2>Learning, resources and techniques</h2>
 <ul>
       <li><a href="https://scotentsd.github.io/agile/">Agile Community of Practice</a> </li>
-      <li><a href="{{ site.baseurl}}/practice/a11y/ally.html">Accessibility</a> </li>
+      <li><a href="{{ site.baseurl}}/practice/a11y/a11y.html">Accessibility</a> </li>
       <li><a href="{{ site.baseurl}}/practice/">Practice   (Techniques and Learning)</a> </li>
       <li><a href="{{ site.baseurl}}/practice/personas/personas.html">Personas</a> </li>
       <li><a href="{{ site.baseurl}}/posters/">Posters</a></li>
