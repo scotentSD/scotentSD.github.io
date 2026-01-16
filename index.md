@@ -21,7 +21,7 @@ layout: default
       <li><a href="{{ site.baseurl}}/a11y/">Accessibility</a> </li>
       <li><a href="{{ site.baseurl}}/feedback/">Customer feedback</a> </li>
       <li><a href="{{ site.baseurl}}/practice/">Practice   (Techniques and Learning)</a> </li>
-      <li><a href="{{ site.baseurl}}/personas/">Personas</a> </li>
+      <li><a href="[https://scotentsd.github.io/practice/personas/personas.html">Personas</a> </li>
       <li><a href="{{ site.baseurl}}/posters/">Posters</a></li>
       <li><a href="{{ site.baseurl}}/patterns/">Service Patterns</a></li>
       <li><a href="{{ site.baseurl}}/resources/">Github pages resources</a> </li>
