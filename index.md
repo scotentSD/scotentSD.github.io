@@ -21,7 +21,6 @@ layout: default
       <li><a href="{{ site.baseurl}}/practice/">Practice   (Techniques and Learning)</a> </li>
       <li><a href="{{ site.baseurl}}/practice/personas/personas.html">Personas</a> </li>
       <li><a href="{{ site.baseurl}}/posters/">Posters</a></li>
-      <li><a href="{{ site.baseurl}}/insights/">Customer Insights</a> </li>
       <li><a href="{{ site.baseurl}}/practice/charts/charts.html">Chart Examples</a> </li>
       <li><a href="{{ site.baseurl}}/research/">Research Library</a> </li>
       
