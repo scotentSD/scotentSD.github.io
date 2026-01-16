@@ -18,8 +18,7 @@ layout: default
 <ul>
       <li><a href="https://scotentsd.github.io/agile/">Agile Community of Practice</a> </li>
       <li><a href="{{ site.baseurl}}/colours.htm">SE brand colour contrast checker</a> </li>
-      <li><a href="{{ site.baseurl}}/a11y/">Accessibility</a> </li>
-      <li><a href="{{ site.baseurl}}/feedback/">Customer feedback</a> </li>
+      <li><a href="{{ site.baseurl}}/practice/a11y/">Accessibility</a> </li>
       <li><a href="{{ site.baseurl}}/practice/">Practice   (Techniques and Learning)</a> </li>
       <li><a href="[https://scotentsd.github.io/practice/personas/personas.html">Personas</a> </li>
       <li><a href="{{ site.baseurl}}/posters/">Posters</a></li>
