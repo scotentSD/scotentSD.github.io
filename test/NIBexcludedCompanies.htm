@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>NBIM Observation and exclusion of companies</title>
+    <!-- SheetJS library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+</head>
+<body>
+    <h1>NBIM Observation and exclusion of companies</h1>
+    <p>Click the button below to generate an Excel sheet or CSV from the table of excluded companies. The data will be current at the moment you click the button.</p>
+    <form>
+        <fieldset>
+            <legend>Choose format</legend>
+            <div class=""radio>
+                <input type="radio" name="format" id="xl" value="Excel" checked><label for="xl">Excel</label>
+            </div>
+            <div class=""radio>
+                <input type="radio" name="format" id="csv" value="CSV"><label for="csv">CSV</label>
+            </div>
+        </fieldset>
+    </form>
+    <br>
+    <button onclick="exportTableToExcel()">Export data</button>
+    <script>
+        function exportTableToExcel() {
+            try {
+                // Get the HTML table element
+                async function getFirstTable(url) {
+                    try {
+                            const response = await fetch(url); // Will fail if CORS not allowed
+                            if (!response.ok) {
+                                throw new Error(`HTTP error! Status: ${response.status}`);
+                            }
+
+                            const html = await response.text();
+                            const parser = new DOMParser();
+                            const doc = parser.parseFromString(html, 'text/html');
+
+                            const firstTable = doc.querySelector('table');
+                            if (firstTable) {
+                                console.log("First table HTML:");
+                                console.log(firstTable.outerHTML);
+                            } else {
+                                console.log("No table found.");
+                            }
+
+                            // Convert HTML table to a SheetJS worksheet
+                            const worksheet = XLSX.utils.table_to_sheet(firstTable);
+
+                            // Create a new workbook and append the worksheet
+                            const workbook = XLSX.utils.book_new();
+                            XLSX.utils.book_append_sheet(workbook, worksheet, "Sheet1");
+
+                            // Write the file
+                            if (document.getElementById("xl").checked) {
+                                // Export the workbook to Excel file
+                                XLSX.writeFile(workbook, "table_export.xlsx");
+                            } else {
+                                // Output as CSV
+                                XLSX.writeFile(workbook, "output.csv", { bookType: "csv" });
+                            }
+                        
+                        } catch (error) {
+                            console.error("Error:", error.message);
+                            }
+                    } 
+                    getFirstTable('https://www.nbim.no/en/responsible-investment/ethical-exclusions/exclusion-of-companies/');
+            } catch (error) {
+                    console.error("Error exporting table:", error);
+                    alert("An error occurred while exporting the table.");
+                    }
+        }
+    </script>
+</body>
+</html>
