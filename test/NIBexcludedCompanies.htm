@@ -63,7 +63,7 @@
                                 XLSX.writeFile(workbook, "table_export.xlsx");
                             } else {
                                 // Output as CSV
-                                XLSX.writeFile(workbook, "output.csv", { bookType: "csv" });
+                                XLSX.writeFile(workbook, datestamp + ".csv", { bookType: "csv" });
                             }
                         
                         } catch (error) {
