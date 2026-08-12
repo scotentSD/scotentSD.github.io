@@ -55,7 +55,7 @@
 
                             // Create a new workbook and append the worksheet
                             const workbook = XLSX.utils.book_new();
-                            XLSX.utils.book_append_sheet(workbook, worksheet, datestamp);
+                            XLSX.utils.book_append_sheet(workbook, worksheet, "Created on: " + datestamp);
 
                             // Write the file
                             if (document.getElementById("xl").checked) {
