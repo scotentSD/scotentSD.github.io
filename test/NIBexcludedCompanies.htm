@@ -50,9 +50,11 @@
                             // Convert HTML table to a SheetJS worksheet
                             const worksheet = XLSX.utils.table_to_sheet(firstTable);
 
+                            let now = new Date().toJSON();
+
                             // Create a new workbook and append the worksheet
                             const workbook = XLSX.utils.book_new();
-                            XLSX.utils.book_append_sheet(workbook, worksheet, "Sheet1");
+                            XLSX.utils.book_append_sheet(workbook, worksheet, now);
 
                             // Write the file
                             if (document.getElementById("xl").checked) {
