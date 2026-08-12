@@ -21,8 +21,10 @@
         </fieldset>
     </form>
     <br>
-    <button onclick="exportTableToExcel()">Export data</button>
+    <button>Export data</button>
     <script>
+        const button = document.querySelector('button');
+        button.addEventListener('click', exportTableToExcel);
         function exportTableToExcel() {
             try {
                 // Get the HTML table element
