@@ -51,11 +51,11 @@
                             const worksheet = XLSX.utils.table_to_sheet(firstTable);
 
                             let datestamp = new Date().toJSON();
-                            console.log(datestamp);
+                            datestamp = datestamp.replace(/:/g, "-");
 
                             // Create a new workbook and append the worksheet
                             const workbook = XLSX.utils.book_new();
-                            XLSX.utils.book_append_sheet(workbook, worksheet, "Created on: " + datestamp);
+                            XLSX.utils.book_append_sheet(workbook, worksheet, datestamp);
 
                             // Write the file
                             if (document.getElementById("xl").checked) {
